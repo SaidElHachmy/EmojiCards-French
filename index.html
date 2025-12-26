@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Cards — French</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Top Navbar -->
+<div class="top">
+    <span id="siteTitle">📘 Emoji Cards — French</span>
+
+    <div class="top-right">
+        <a href="https://saidelhachmy.github.io/#about"
+           target="_blank"
+           class="contact-tab">
+           Contact
+        </a>
+    </div>
+</div>
+
+<div id="search-area">
+    <input id="search-input" type="text" placeholder="Search word or emoji..." />
+    <button id="search-btn">Search</button>
+</div>
+<div id="search-result" class="search-grid"></div>
+
+
+
+<!-- Title for all cards -->
+<div id="all-cards-title" class="cards-title">
+    📚 All Emoji Cards :
+</div>
+
+
+<div id="cards-container"></div>
+
+<footer id="app-footer">
+    © <span id="year"></span> — Said ElHachmy. All rights reserved
+</footer>
+
+<script src="cardsData.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
