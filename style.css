@@ -264,6 +264,51 @@ body {
     text-align: center;
 }
 
+
+/* ===== Story Toggle Button ===== */
+.story-toggle-btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 15px;
+    background-color: #00ACFF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.story-toggle-btn:hover {
+    background-color: #0088cc;
+    transform: scale(1.05);
+}
+
+/* ===== Story Container ===== */
+.card-story-container {
+    display: none; /* hidden by default */
+    margin-top: 10px;
+    padding: 12px;
+    border-left: 4px solid #00ACFF;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ===== Story Titles ===== */
+.card-story-container .story-title {
+    font-weight: bold;
+    color: #0077aa;
+    margin-bottom: 6px;
+}
+
+/* ===== Story Content ===== */
+.card-story-container .story-content {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.5;
+}
+
 /* =====================
    SENTENCE
 ===================== */
