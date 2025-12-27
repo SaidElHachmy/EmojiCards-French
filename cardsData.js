@@ -7,7 +7,7 @@
     word: "en colère",
     ipa: "/ɑ̃ kɔlɛʁ/",
     image: "en_colere.png",
-    video: "videos/en_colere.mp4",
+
     sentence: 'Hulk est <span style="color:#00ACFF; font-weight:bold">en colère</span>.',
     englishTr: 'Hulk is <span style="color:#00ACFF; font-weight:bold">angry</span>.',
     
@@ -23,7 +23,8 @@
     word: "beau",
     ipa: "/bo/",
     image: "beau.png",
-    video: "videos/beau.mp4",
+
+
     sentence: 'Le jardin de Samira est vraiment <span style="color:#00ACFF; font-weight:bold">beau</span>.',
     englishTr: 'Samira’s garden is really <span style="color:#00ACFF; font-weight:bold">beautiful</span>.',
 
@@ -38,7 +39,7 @@
     word: "courageux",
     ipa: "/kuʁaʒø/",
     image: "courageux.png",
-    video: "videos/courageux.mp4",
+     
     sentence: 'Omar est <span style="color:#00ACFF; font-weight:bold">courageux</span> et affronte ses peurs sans hésiter.',
     englishTr: 'Omar is <span style="color:#00ACFF; font-weight:bold">brave</span> and faces his fears without hesitation.',
 
@@ -54,7 +55,7 @@
     word: "lâche",
     ipa: "/laʃ/",
     image: "lache.png",
-    video: "videos/lache.mp4",
+      
     sentence: 'Yassin est <span style="color:#00ACFF; font-weight:bold">lâche</span> et recule quand le chien aboie.',
     englishTr: 'Yassin is <span style="color:#00ACFF; font-weight:bold">a coward</span> and steps back when the dog barks.',
 
@@ -69,7 +70,7 @@
     word: "prudent",
     ipa: "/pʁydɑ̃/",
     image: "prudent.png",
-    video: "videos/prudent.mp4",
+      
     sentence: 'Khalid est <span style="color:#00ACFF; font-weight:bold">prudent</span> en traversant la route.',
     englishTr: 'Khalid is <span style="color:#00ACFF; font-weight:bold">careful</span> while crossing the road.',
 
@@ -85,7 +86,7 @@
     word: "imprudent",
     ipa: "/ɛ̃pʁydɑ̃/",
     image: "imprudent.png",
-    video: "videos/imprudent.mp4",
+     
     sentence: 'Rami est <span style="color:#00ACFF; font-weight:bold">imprudent</span> et laisse tomber ses affaires partout.',
     englishTr: 'Rami is <span style="color:#00ACFF; font-weight:bold">careless</span> and drops his things everywhere.',
 
@@ -99,7 +100,7 @@
     word: "intelligent",
     ipa: "/ɛ̃teliʒɑ̃/",
     image: "intelligent.png",
-    video: "videos/intelligent.mp4",
+     
     sentence: 'Karim est <span style="color:#00ACFF; font-weight:bold">intelligent</span> et trouve toujours une solution aux problèmes.',
     englishTr: 'Karim is <span style="color:#00ACFF; font-weight:bold">clever</span> and always finds a solution to problems.',
 
@@ -114,7 +115,7 @@
     word: "mignon",
     ipa: "/miɲɔ̃/",
     image: "mignon.png",
-    video: "videos/mignon.mp4",
+     
     sentence: 'Le chiot de Leila est vraiment <span style="color:#00ACFF; font-weight:bold">mignon</span>.',
     englishTr: 'Leila’s puppy is really <span style="color:#00ACFF; font-weight:bold">cute</span>.',
 
@@ -128,7 +129,7 @@
     word: "dangereux",
     ipa: "/dɑ̃ʒʁø/",
     image: "dangereux.png",
-    video: "videos/dangereux.mp4",
+     
     sentence: 'Le chemin dans la forêt est <span style="color:#00ACFF; font-weight:bold">dangereux</span> pour Sami.',
     englishTr: 'The path in the forest is <span style="color:#00ACFF; font-weight:bold">dangerous</span> for Sami.',
 
@@ -142,7 +143,7 @@
     word: "excité",
     ipa: "/ɛksite/",
     image: "excite.png",
-    video: "videos/excite.mp4",
+     
     sentence: 'Youssef est <span style="color:#00ACFF; font-weight:bold">excité</span> à l’idée d’aller au parc d’attractions.',
     englishTr: 'Youssef is <span style="color:#00ACFF; font-weight:bold">excited</span> about going to the amusement park.',
 
@@ -156,7 +157,7 @@
     word: "célèbre",
     ipa: "/selɛbʁ/",
     image: "celebre.png",
-    video: "videos/celebre.mp4",
+     
     sentence: 'Leila est <span style="color:#00ACFF; font-weight:bold">célèbre</span> pour ses peintures magnifiques.',
     englishTr: 'Leila is <span style="color:#00ACFF; font-weight:bold">famous</span> for her beautiful paintings.',
 
@@ -170,7 +171,7 @@
     word: "amical",
     ipa: "/amikal/",
     image: "amical.png",
-    video: "videos/amical.mp4",
+     
     sentence: 'Karim est très <span style="color:#00ACFF; font-weight:bold">amical</span> avec ses camarades.',
     englishTr: 'Karim is very <span style="color:#00ACFF; font-weight:bold">friendly</span> with his classmates.',
 
@@ -184,7 +185,7 @@
     word: "heureux",
     ipa: "/øʁø/",
     image: "heureux.png",
-    video: "videos/heureux.mp4",
+     
     sentence: 'Mariam est très <span style="color:#00ACFF; font-weight:bold">heureuse</span> de recevoir son nouveau vélo.',
     englishTr: 'Mariam is very <span style="color:#00ACFF; font-weight:bold">happy</span> to receive her new bike.',
 
@@ -200,7 +201,7 @@
     word: "chanceux",
     ipa: "/ʃɑ̃sø/",
     image: "chanceux.png",
-    video: "videos/chanceux.mp4",
+     
     sentence: 'Omar est <span style="color:#00ACFF; font-weight:bold">chanceux</span> d’avoir trouvé un trèfle à quatre feuilles.',
     englishTr: 'Omar is <span style="color:#00ACFF; font-weight:bold">lucky</span> to have found a four-leaf clover.',
 
@@ -216,7 +217,7 @@
     word: "malchanceux",
     ipa: "/mal ʃɑ̃sø/",
     image: "malchanceux.png",
-    video: "videos/malchanceux.mp4",
+     
     sentence: 'Yassin est <span style="color:#00ACFF; font-weight:bold">malchanceux</span> et son ballon tombe dans l’eau.',
     englishTr: 'Yassin is <span style="color:#00ACFF; font-weight:bold">unlucky</span> and his ball fell into the water.',
 
@@ -233,7 +234,7 @@
     word: "laid",
     ipa: "/lɛ/",
     image: "laid.png",
-    video: "videos/laid.mp4",
+     
     sentence: 'Le masque de Samir est vraiment <span style="color:#00ACFF; font-weight:bold">laid</span>.',
     englishTr: 'Samir’s mask is really <span style="color:#00ACFF; font-weight:bold">ugly</span>.',
 
@@ -249,7 +250,7 @@
     word: "vieux",
     ipa: "/vjø/",
     image: "vieux.png",
-    video: "videos/vieux.mp4",
+     
     sentence: 'Le grand-père de Amina est très <span style="color:#00ACFF; font-weight:bold">vieux</span> mais plein de sagesse.',
     englishTr: 'Amina’s grandfather is very <span style="color:#00ACFF; font-weight:bold">old</span> but full of wisdom.',
 
@@ -265,7 +266,7 @@
     word: "jeune",
     ipa: "/ʒœn/",
     image: "jeune.png",
-    video: "videos/jeune.mp4",
+     
     sentence: 'Le petit frère de Sami est très <span style="color:#00ACFF; font-weight:bold">jeune</span> et curieux de tout.',
     englishTr: 'Sami’s little brother is very <span style="color:#00ACFF; font-weight:bold">young</span> and curious about everything.',
 
