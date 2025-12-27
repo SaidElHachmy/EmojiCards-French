@@ -155,7 +155,7 @@ imgTitle.textContent = "";
 
             
             
-            videoTitle.textContent = `🎥 Video about " ${capitalizedVidoTitle} / ${card.emoji} / " :`;
+            videoTitle.textContent = `🎥 Video about " ${capitalizedVidoTitle} " :`;
             secLine.style.display="block"
         });
 
@@ -199,7 +199,7 @@ img.onload = () => {
     const capitalizedImageTitle =
     card.word.charAt(0).toUpperCase() + card.word.slice(1);
     
-    imgTitle.textContent = `🖼️ Image about " ${capitalizedImageTitle} / ${card.emoji} / " :`;
+    imgTitle.textContent = `🖼️ Image about " ${capitalizedImageTitle} " :`;
     imgTitle.style.display = "block";
 };
 
@@ -231,7 +231,7 @@ const capitalizedWord =
     card.word.charAt(0).toUpperCase() + card.word.slice(1);
 
 
-examplesTitle.textContent = `🗒️ " ${capitalizedWord} / ${card.emoji} / " in 2 Languages :`;
+examplesTitle.textContent = `📜 " ${capitalizedWord} " in 2 Languages :`;
     cardDiv.append(examplesTitle);
     cardDiv.append(sentenceDiv);
     cardDiv.append(englishDiv);
@@ -247,6 +247,101 @@ examplesTitle.textContent = `🗒️ " ${capitalizedWord} / ${card.emoji} / " in
         cardDiv.append(videoTitle); // append title
         cardDiv.append(videoSection); // append video below sentences
     }
+    
+    
+    // =========================
+// STORY TOGGLE BUTTON
+// =========================
+const storyButton = document.createElement("button");
+storyButton.className = "story-toggle-btn";
+storyButton.textContent = "Click to See The Story";
+
+// Story container (hidden by default)
+const storyContainer = document.createElement("div");
+storyContainer.className = "card-story-container";
+storyContainer.style.display = "none"; // initially hidden
+
+// Main Story
+const mainStoryDiv = document.createElement("div");
+mainStoryDiv.className = "main-story";
+
+const mainTitle = document.createElement("div");
+mainTitle.className = "story-title";
+mainTitle.textContent = card.mainStoryTitle && card.mainStoryTitle.trim() 
+    ? card.mainStoryTitle 
+    : "Main Story:";
+
+const mainContent = document.createElement("div");
+mainContent.className = "story-content";
+mainContent.textContent = card.mainStoryContent && card.mainStoryContent.trim() 
+    ? card.mainStoryContent 
+    : "No story available.";
+
+mainStoryDiv.append(mainTitle, mainContent);
+
+// English Story
+const englishStoryDiv = document.createElement("div");
+englishStoryDiv.className = "english-story";
+
+const englishTitle = document.createElement("div");
+englishTitle.className = "story-title";
+englishTitle.textContent = card.englishStoryTitle && card.englishStoryTitle.trim() 
+    ? card.englishStoryTitle 
+    : "English Story:";
+
+const englishContent = document.createElement("div");
+englishContent.className = "story-content";
+englishContent.textContent = card.englishStoryContent && card.englishStoryContent.trim() 
+    ? card.englishStoryContent 
+    : "No story available.";
+
+englishStoryDiv.append(englishTitle, englishContent);
+
+        
+        const spacePlace=document.createElement('br')
+        
+        
+
+// Append main and English stories to container
+storyContainer.append(mainStoryDiv,spacePlace, englishStoryDiv);
+
+// Toggle button click
+// Toggle button click
+storyButton.addEventListener("click", () => {
+    // Hide all other story containers first
+    document.querySelectorAll(".card-story-container").forEach(container => {
+        if (container !== storyContainer) {
+            container.style.display = "none";
+            // Reset their corresponding buttons text
+            const btn = container.previousElementSibling;
+            if (btn && btn.classList.contains("story-toggle-btn")) {
+                btn.textContent = "Click to See The Story";
+            }
+        }
+    });
+
+    // Toggle current story container
+    if (storyContainer.style.display === "none") {
+        storyContainer.style.display = "block";
+        storyButton.textContent = "Hide The Story";
+    } else {
+        storyContainer.style.display = "none";
+        storyButton.textContent = "Click to See The Story";
+    }
+});
+
+// Append button and container below video (or fallback position)
+if (videoSection) {
+    cardDiv.append(storyButton);
+    cardDiv.append(storyContainer);
+} else {
+    cardDiv.append(storyButton);
+    cardDiv.append(storyContainer);
+}
+    
+    
+    
+    
 
 
     if (removable) {
