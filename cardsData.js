@@ -1,20 +1,19 @@
         
         
         const cardsData = [
-    
     {
     emoji: "😡",
     word: "en colère",
     ipa: "/ɑ̃ kɔlɛʁ/",
     image: "en_colere.png",
+    video: "videos/en_colere.mp4",
+    sentence: 'Le garçon au t-shirt rouge est <span style="color:#00ACFF; font-weight:bold">en colère</span> après avoir perdu son jeu.',
+    englishTr: 'The boy in the red shirt is <span style="color:#00ACFF; font-weight:bold">angry</span> after losing his game.',
 
-    sentence: 'Hulk est <span style="color:#00ACFF; font-weight:bold">en colère</span>.',
-    englishTr: 'Hulk is <span style="color:#00ACFF; font-weight:bold">angry</span>.',
-    
-    mainStoryTitle: "La Colère d’Ali",
-    mainStoryContent: "Ali jouait dans le parc quand le vent emporta son ballon. Il sauta et cria, frustré de le voir partir. Mais un oiseau le rattrapa doucement et le remit à Ali. Ali sourit et reprit le jeu, sa colère disparue.",
-    englishStoryTitle: "Ali Gets Angry",
-    englishStoryContent: "Ali was playing in the park when the wind carried his ball away. He jumped and shouted, frustrated to see it go. But a bird gently caught it and gave it back to Ali. Ali smiled and resumed playing, his anger gone."
+    mainStoryTitle: "La Colère du Garçon au T-shirt Rouge",
+    mainStoryContent: "Le garçon au t-shirt rouge jouait avec ses amis dans la cour. Quand il perdit la partie, son visage devint tout rouge de colère. Il croisa les bras et resta silencieux pendant un moment. Puis il respira profondément et retourna jouer calmement.",
+    englishStoryTitle: "The Boy in the Red Shirt Gets Angry",
+    englishStoryContent: "The boy in the red shirt was playing with his friends in the yard. When he lost the game, his face turned red with anger. He crossed his arms and stayed quiet for a moment. Then he took a deep breath and went back to playing calmly."
 },
     
     
@@ -23,91 +22,89 @@
     word: "beau",
     ipa: "/bo/",
     image: "beau.png",
+    video: "videos/beau.mp4",
+    sentence: 'Le petit jardin derrière la maison est <span style="color:#00ACFF; font-weight:bold">beau</span> au lever du soleil.',
+    englishTr: 'The small garden in the backyard is <span style="color:#00ACFF; font-weight:bold">beautiful</span> at sunrise.',
 
-
-    sentence: 'Le jardin de Samira est vraiment <span style="color:#00ACFF; font-weight:bold">beau</span>.',
-    englishTr: 'Samira’s garden is really <span style="color:#00ACFF; font-weight:bold">beautiful</span>.',
-
-    mainStoryTitle: "Le Jardin de Samira",
-    mainStoryContent: "Samira plantait des fleurs colorées chaque matin. Les papillons venaient danser autour des roses et des tulipes. Les voisins venaient admirer le jardin et complimenter Samira. Chaque jour, elle ajoutait quelque chose de nouveau, rendant son jardin encore plus beau.",
-    englishStoryTitle: "Samira’s Beautiful Garden",
-    englishStoryContent: "Samira planted colorful flowers every morning. Butterflies came to dance around the roses and tulips. Neighbors came to admire the garden and compliment Samira. Every day, she added something new, making her garden even more beautiful."
+    mainStoryTitle: "Le Petit Jardin du Fond",
+    mainStoryContent: "Derrière la maison, il y avait un petit jardin plein de fleurs colorées. Chaque matin, la rosée brillait sur les feuilles vertes. Des oiseaux venaient chanter près des roses et des tulipes. Le jardin rendait tout le monde calme et heureux.",
+    englishStoryTitle: "The Little Backyard Garden",
+    englishStoryContent: "Behind the house, there was a small garden full of colorful flowers. Every morning, dew sparkled on the green leaves. Birds came to sing near the roses and tulips. The garden made everyone feel calm and happy."
 },
     
     {
-    emoji: "🦁",
+    emoji: "🦸‍♂️",
     word: "courageux",
     ipa: "/kuʁaʒø/",
     image: "courageux.png",
-     
-    sentence: 'Omar est <span style="color:#00ACFF; font-weight:bold">courageux</span> et affronte ses peurs sans hésiter.',
-    englishTr: 'Omar is <span style="color:#00ACFF; font-weight:bold">brave</span> and faces his fears without hesitation.',
+    video: "videos/courageux.mp4",
+    sentence: 'Superman est <span style="color:#00ACFF; font-weight:bold">courageux</span> et protège la ville sans hésiter.',
+    englishTr: 'Superman is <span style="color:#00ACFF; font-weight:bold">brave</span> and protects the city without hesitation.',
 
-    mainStoryTitle: "Le Courage d’Omar",
-    mainStoryContent: "Omar vit un chat coincé sur un arbre très haut. Il monta avec prudence et le sauva doucement. Ses amis étaient impressionnés par son courage. Omar se sentait fier d’avoir aidé sans peur.",
-    englishStoryTitle: "Omar’s Brave Deed",
-    englishStoryContent: "Omar saw a cat stuck on a very tall tree. He climbed carefully and rescued it gently. His friends were impressed by his bravery. Omar felt proud to have helped without fear."
+    mainStoryTitle: "Le Courage de Superman",
+    mainStoryContent: "Superman entendit un appel à l’aide venant de la ville. Il vola rapidement au-dessus des immeubles pour sauver les habitants. Même face au danger, il ne recula jamais. Grâce à son courage, la ville retrouva le calme.",
+    englishStoryTitle: "Superman’s Bravery",
+    englishStoryContent: "Superman heard a call for help coming from the city. He quickly flew over the buildings to save the people. Even when facing danger, he never stepped back. Thanks to his bravery, the city became peaceful again."
 },
     
-    
     {
-    emoji: "🐔",
+    emoji: "😱",
     word: "lâche",
     ipa: "/laʃ/",
     image: "lache.png",
-      
-    sentence: 'Yassin est <span style="color:#00ACFF; font-weight:bold">lâche</span> et recule quand le chien aboie.',
-    englishTr: 'Yassin is <span style="color:#00ACFF; font-weight:bold">a coward</span> and steps back when the dog barks.',
+    video: "videos/lache.mp4",
+    sentence: 'Scooby-Doo est <span style="color:#00ACFF; font-weight:bold">lâche</span> quand il entend un bruit étrange.',
+    englishTr: 'Scooby-Doo is <span style="color:#00ACFF; font-weight:bold">a coward</span> when he hears a strange noise.',
 
-    mainStoryTitle: "La Peur de Yassin",
-    mainStoryContent: "Yassin voulait traverser le jardin, mais un gros chien aboyait fort. Tremblant, il recula et se cacha derrière un arbre. Ses amis lui crièrent de passer, mais il attendit patiemment. Finalement, le chien partit, et Yassin put continuer, toujours un peu nerveux.",
-    englishStoryTitle: "Yassin the Coward",
-    englishStoryContent: "Yassin wanted to cross the garden, but a big dog was barking loudly. Trembling, he stepped back and hid behind a tree. His friends shouted for him to go, but he waited patiently. Finally, the dog left, and Yassin could continue, still a little nervous."
+    mainStoryTitle: "La Peur de Scooby-Doo",
+    mainStoryContent: "Scooby-Doo explorait un vieux manoir avec ses amis. Dès qu’une porte grinça, il se cacha derrière Shaggy. Il tremblait et faisait des bruits bizarres de peur. Pourtant, malgré sa lâcheté, Scooby finissait toujours par aider ses amis.",
+    englishStoryTitle: "Scooby-Doo the Coward",
+    englishStoryContent: "Scooby-Doo was exploring an old mansion with his friends. As soon as a door creaked, he hid behind Shaggy. He trembled and made funny scared noises. Yet, despite being a coward, Scooby always ended up helping his friends."
 },
     
     {
-    emoji: "⚖️",
+    emoji: "⚠️",
     word: "prudent",
     ipa: "/pʁydɑ̃/",
     image: "prudent.png",
-      
-    sentence: 'Khalid est <span style="color:#00ACFF; font-weight:bold">prudent</span> en traversant la route.',
-    englishTr: 'Khalid is <span style="color:#00ACFF; font-weight:bold">careful</span> while crossing the road.',
+    video: "videos/prudent.mp4",
+    sentence: 'Le panneau jaune demande d’être <span style="color:#00ACFF; font-weight:bold">prudent</span> car le sol est mouillé.',
+    englishTr: 'The yellow sign asks people to be <span style="color:#00ACFF; font-weight:bold">careful</span> because the floor is wet.',
 
-    mainStoryTitle: "La Prudence de Khalid",
-    mainStoryContent: "Khalid devait traverser la rue très fréquentée pour rejoindre l’école. Il regarda à gauche, puis à droite avant de marcher. Ses amis le pressaient, mais il attendit calmement. Grâce à sa prudence, il arriva sain et sauf de l’autre côté.",
-    englishStoryTitle: "Khalid is Careful",
-    englishStoryContent: "Khalid had to cross the busy street to get to school. He looked left, then right before stepping forward. His friends were rushing him, but he waited calmly. Thanks to his carefulness, he reached the other side safely."
+    mainStoryTitle: "Attention au Sol Mouillé",
+    mainStoryContent: "Un panneau jaune était posé au milieu du couloir. Il avertissait les passants que le sol venait d’être nettoyé. Les gens marchaient lentement pour éviter de glisser. Grâce à ce panneau, tout le monde resta en sécurité.",
+    englishStoryTitle: "Caution: Wet Floor",
+    englishStoryContent: "A yellow sign was placed in the middle of the hallway. It warned people that the floor had just been cleaned. Everyone walked slowly to avoid slipping. Thanks to the sign, everyone stayed safe."
 },
     
     
     {
-    emoji: "💨",
+    emoji: "💥",
     word: "imprudent",
     ipa: "/ɛ̃pʁydɑ̃/",
     image: "imprudent.png",
-     
-    sentence: 'Rami est <span style="color:#00ACFF; font-weight:bold">imprudent</span> et laisse tomber ses affaires partout.',
-    englishTr: 'Rami is <span style="color:#00ACFF; font-weight:bold">careless</span> and drops his things everywhere.',
+    video: "videos/imprudent.mp4",
+    sentence: 'Le garçon en chemise blanche et jean bleu est <span style="color:#00ACFF; font-weight:bold">imprudent</span> et tombe de sa trottinette.',
+    englishTr: 'The boy in a white shirt and blue jeans is <span style="color:#00ACFF; font-weight:bold">careless</span> and falls off his scooter.',
 
-    mainStoryTitle: "L’Imprudence de Rami",
-    mainStoryContent: "Rami jouait dans la chambre sans ranger ses jouets. Il renversa accidentellement son seau de billes sur le sol. Ses frères et sœurs glissèrent et rirent de la situation. Rami comprit qu’être imprudent pouvait créer des petits désastres.",
-    englishStoryTitle: "Rami the Careless",
-    englishStoryContent: "Rami was playing in the room without putting away his toys. He accidentally spilled his bucket of marbles on the floor. His siblings slipped and laughed at the situation. Rami realized that being careless could cause little disasters."
+    mainStoryTitle: "La Chute du Garçon Imprudent",
+    mainStoryContent: "Le garçon roulait trop vite sur sa trottinette sans regarder devant lui. Il riait et ne faisait pas attention aux obstacles. Soudain, la roue heurta une pierre et il tomba par terre. Heureusement, il se releva doucement et comprit qu’il devait être plus prudent.",
+    englishStoryTitle: "The Careless Boy Falls",
+    englishStoryContent: "The boy was riding his scooter too fast without looking ahead. He was laughing and not paying attention to obstacles. Suddenly, the wheel hit a stone and he fell to the ground. Luckily, he stood up slowly and understood that he needed to be more careful."
 },
+    
     {
-    emoji: "🧠",
+    emoji: "💡",
     word: "intelligent",
     ipa: "/ɛ̃teliʒɑ̃/",
     image: "intelligent.png",
-     
-    sentence: 'Karim est <span style="color:#00ACFF; font-weight:bold">intelligent</span> et trouve toujours une solution aux problèmes.',
-    englishTr: 'Karim is <span style="color:#00ACFF; font-weight:bold">clever</span> and always finds a solution to problems.',
+    sentence: 'Tesla tient une lampe dans sa main, montrant qu’il est <span style="color:#00ACFF; font-weight:bold">intelligent</span>.',
+    englishTr: 'Tesla is holding a lamp in his hand, showing that he is <span style="color:#00ACFF; font-weight:bold">clever</span>.',
 
-    mainStoryTitle: "La Malice de Karim",
-    mainStoryContent: "Karim devait résoudre un casse-tête compliqué pour son club de jeux. Il observa attentivement chaque pièce et essaya plusieurs idées. Ses amis étaient bloqués, mais Karim ne perdit pas patience. Finalement, il réussit et tout le monde le félicita pour son intelligence.",
-    englishStoryTitle: "Karim the Clever",
-    englishStoryContent: "Karim had to solve a tricky puzzle for his game club. He carefully examined each piece and tried several ideas. His friends were stuck, but Karim didn’t lose patience. Finally, he succeeded, and everyone congratulated him for his cleverness."
+    mainStoryTitle: "L’Idée Brillante de Tesla",
+    mainStoryContent: "Tesla observait la lampe avec beaucoup d’attention. Il réfléchissait à la manière de produire de la lumière plus facilement. Son esprit ne s’arrêtait jamais de chercher de nouvelles idées. Grâce à son intelligence, ses inventions ont changé le monde.",
+    englishStoryTitle: "Tesla’s Bright Idea",
+    englishStoryContent: "Tesla was observing the lamp very carefully. He was thinking about how to create light more easily. His mind never stopped searching for new ideas. Thanks to his intelligence, his inventions changed the world."
 },
     
     {
@@ -115,133 +112,128 @@
     word: "mignon",
     ipa: "/miɲɔ̃/",
     image: "mignon.png",
-     
-    sentence: 'Le chiot de Leila est vraiment <span style="color:#00ACFF; font-weight:bold">mignon</span>.',
-    englishTr: 'Leila’s puppy is really <span style="color:#00ACFF; font-weight:bold">cute</span>.',
+    sentence: 'Le petit chiot jaune est vraiment <span style="color:#00ACFF; font-weight:bold">mignon</span>.',
+    englishTr: 'The little yellow puppy is really <span style="color:#00ACFF; font-weight:bold">cute</span>.',
 
-    mainStoryTitle: "Le Petit Chiot de Leila",
-    mainStoryContent: "Leila avait un petit chiot qui adorait courir dans le jardin. Ses grandes oreilles bougeaient à chaque saut, et son petit museau frétillait. Ses amis venaient jouer avec lui et riaient de ses petites cabrioles. Tout le monde pensait que le chiot était incroyablement mignon.",
-    englishStoryTitle: "Leila’s Cute Puppy",
-    englishStoryContent: "Leila had a little puppy who loved running in the garden. Its big ears flopped with every jump, and its little nose twitched. Her friends came to play with it and laughed at its tiny antics. Everyone thought the puppy was incredibly cute."
+    mainStoryTitle: "Le Petit Chiot Jaune",
+    mainStoryContent: "Le chiot jaune courait dans le jardin en agitant sa petite queue. Ses yeux brillaient de curiosité et il reniflait chaque fleur. Il jouait avec une balle colorée que son ami lui lançait. Tout le monde souriait en voyant ce chiot si mignon.",
+    englishStoryTitle: "The Little Yellow Puppy",
+    englishStoryContent: "The yellow puppy ran around the garden wagging its little tail. Its eyes sparkled with curiosity as it sniffed every flower. It played with a colorful ball that its friend threw. Everyone smiled seeing this little puppy so cute."
 },
+    
+    
     {
     emoji: "☠️",
     word: "dangereux",
     ipa: "/dɑ̃ʒʁø/",
     image: "dangereux.png",
-     
-    sentence: 'Le chemin dans la forêt est <span style="color:#00ACFF; font-weight:bold">dangereux</span> pour Sami.',
-    englishTr: 'The path in the forest is <span style="color:#00ACFF; font-weight:bold">dangerous</span> for Sami.',
+    sentence: 'Le crâne entouré de deux épées est un symbole <span style="color:#00ACFF; font-weight:bold">dangereux</span> pour les pirates.',
+    englishTr: 'The skull surrounded by two swords is a <span style="color:#00ACFF; font-weight:bold">dangerous</span> symbol for pirates.',
 
-    mainStoryTitle: "L’Aventure Dangereuse de Sami",
-    mainStoryContent: "Sami explorait la forêt malgré l’avertissement des villageois. Il glissa sur des pierres humides et évita de justesse des branches basses. Son chat le suivait prudemment et l’encourageait à avancer. Après plusieurs frayeurs, Sami atteignit enfin la clairière en sécurité.",
-    englishStoryTitle: "Sami’s Dangerous Adventure",
-    englishStoryContent: "Sami was exploring the forest despite the villagers’ warning. He slipped on wet stones and narrowly avoided low branches. His cat followed carefully and encouraged him to keep going. After several scares, Sami finally reached the clearing safely."
+    mainStoryTitle: "Le Symbole des Pirates",
+    mainStoryContent: "Sur le drapeau noir, un crâne était entouré de deux épées croisées. Les pirates savaient que ce symbole annonçait un danger imminent. Personne n’osait s’approcher de ce bateau. Même les plus courageux respectaient ce signe dangereux.",
+    englishStoryTitle: "The Pirate Danger Symbol",
+    englishStoryContent: "On the black flag, a skull was surrounded by two crossed swords. Pirates knew that this symbol warned of imminent danger. No one dared to approach this ship. Even the bravest respected this dangerous sign."
 },
+    
     {
     emoji: "🎉",
     word: "excité",
     ipa: "/ɛksite/",
     image: "excite.png",
-     
-    sentence: 'Youssef est <span style="color:#00ACFF; font-weight:bold">excité</span> à l’idée d’aller au parc d’attractions.',
-    englishTr: 'Youssef is <span style="color:#00ACFF; font-weight:bold">excited</span> about going to the amusement park.',
+    sentence: 'Le pistolet à confettis rend tout le monde <span style="color:#00ACFF; font-weight:bold">excité</span> pendant la fête.',
+    englishTr: 'The confetti gun makes everyone <span style="color:#00ACFF; font-weight:bold">excited</span> during the party.',
 
-    mainStoryTitle: "L’Excitation de Youssef",
-    mainStoryContent: "Youssef monta dans le bus avec impatience et ne pouvait pas s’arrêter de sourire. Il parlait tout le temps de la grande roue et des manèges. Ses amis partageaient son enthousiasme et riaient ensemble. À leur arrivée, Youssef courut directement vers les attractions, débordant d’excitation.",
-    englishStoryTitle: "Youssef is Excited",
-    englishStoryContent: "Youssef got on the bus eagerly and couldn’t stop smiling. He kept talking about the Ferris wheel and the rides. His friends shared his enthusiasm and laughed together. When they arrived, Youssef ran straight to the attractions, overflowing with excitement."
+    mainStoryTitle: "La Fête de Confettis",
+    mainStoryContent: "Pendant la fête, un pistolet à confettis tirait des éclats colorés dans tous les sens. Les enfants riaient et sautaient de joie. Même les adultes étaient surpris et se mirent à applaudir. Toute la pièce était remplie d’une atmosphère excitée et joyeuse.",
+    englishStoryTitle: "The Confetti Party",
+    englishStoryContent: "During the party, a confetti gun shot colorful bursts everywhere. The children laughed and jumped with joy. Even the adults were surprised and started clapping. The whole room was filled with an excited and joyful atmosphere."
 },
+    
+    
     {
-    emoji: "⭐",
+    emoji: "🌟",
     word: "célèbre",
     ipa: "/selɛbʁ/",
     image: "celebre.png",
-     
-    sentence: 'Leila est <span style="color:#00ACFF; font-weight:bold">célèbre</span> pour ses peintures magnifiques.',
-    englishTr: 'Leila is <span style="color:#00ACFF; font-weight:bold">famous</span> for her beautiful paintings.',
+    sentence: 'L’étoile avec des lunettes noires est <span style="color:#00ACFF; font-weight:bold">célèbre</span> et attire tous les regards.',
+    englishTr: 'The star wearing black sunglasses is <span style="color:#00ACFF; font-weight:bold">famous</span> and attracts everyone’s attention.',
 
-    mainStoryTitle: "La Célébrité de Leila",
-    mainStoryContent: "Leila exposait ses tableaux dans une galerie de la ville. Les visiteurs venaient de partout pour admirer ses œuvres. Chaque peinture racontait une histoire qui captivait le public. Grâce à son talent, Leila devint rapidement célèbre dans tout le quartier.",
-    englishStoryTitle: "Leila Becomes Famous",
-    englishStoryContent: "Leila was displaying her paintings in a city gallery. Visitors came from everywhere to admire her work. Each painting told a story that captivated the audience. Thanks to her talent, Leila quickly became famous throughout the neighborhood."
+    mainStoryTitle: "L’Étoile Célèbre",
+    mainStoryContent: "L’étoile marchait sur le tapis rouge avec ses lunettes noires. Les photographes prenaient des centaines de photos à chaque pas. Les fans criaient et agitaient des pancartes pour la voir. Partout où elle allait, l’étoile était considérée comme célèbre et admirée.",
+    englishStoryTitle: "The Famous Star",
+    englishStoryContent: "The star walked on the red carpet with black sunglasses. Photographers took hundreds of pictures at every step. Fans shouted and waved signs to see her. Everywhere she went, the star was considered famous and admired."
 },
+    
     {
     emoji: "🤝",
     word: "amical",
     ipa: "/amikal/",
     image: "amical.png",
-     
-    sentence: 'Karim est très <span style="color:#00ACFF; font-weight:bold">amical</span> avec ses camarades.',
-    englishTr: 'Karim is very <span style="color:#00ACFF; font-weight:bold">friendly</span> with his classmates.',
+    sentence: 'Les deux mains qui se serrent sont un geste <span style="color:#00ACFF; font-weight:bold">amical</span>.',
+    englishTr: 'The two hands shaking is a <span style="color:#00ACFF; font-weight:bold">friendly</span> gesture.',
 
-    mainStoryTitle: "L’Amitié de Karim",
-    mainStoryContent: "Karim aide toujours ses amis lorsqu’ils ont besoin de soutien. Il partage ses crayons et joue avec tout le monde pendant la récréation. Ses camarades l’apprécient beaucoup et viennent souvent lui parler. Grâce à son caractère amical, Karim se fait facilement des amis.",
-    englishStoryTitle: "Karim is Friendly",
-    englishStoryContent: "Karim always helps his friends when they need support. He shares his pencils and plays with everyone during recess. His classmates appreciate him a lot and often come to talk to him. Thanks to his friendly nature, Karim easily makes friends."
+    mainStoryTitle: "Le Poignée de Main Amicale",
+    mainStoryContent: "Deux amis se rencontrent et se serrent la main avec un sourire. Ce geste montre leur respect et leur confiance mutuelle. Tout le monde autour remarque l’atmosphère chaleureuse. La poignée de main amicale rend la réunion plus joyeuse et agréable.",
+    englishStoryTitle: "The Friendly Handshake",
+    englishStoryContent: "Two friends meet and shake hands with a smile. This gesture shows their respect and mutual trust. Everyone around notices the warm atmosphere. The friendly handshake makes the gathering more joyful and pleasant."
 },
+    
     {
     emoji: "😄",
     word: "heureux",
     ipa: "/øʁø/",
     image: "heureux.png",
-     
-    sentence: 'Mariam est très <span style="color:#00ACFF; font-weight:bold">heureuse</span> de recevoir son nouveau vélo.',
-    englishTr: 'Mariam is very <span style="color:#00ACFF; font-weight:bold">happy</span> to receive her new bike.',
+    sentence: 'L’emoji souriant au-dessus des nuages est <span style="color:#00ACFF; font-weight:bold">heureux</span>.',
+    englishTr: 'The smiling emoji over the clouds is <span style="color:#00ACFF; font-weight:bold">happy</span>.',
 
-    mainStoryTitle: "Le Sourire de Mariam",
-    mainStoryContent: "Mariam ouvrit le paquet et découvrit un magnifique vélo rouge. Elle sauta de joie et pédala dans le jardin. Ses amis vinrent admirer son cadeau et rirent avec elle. Tout le monde pouvait voir combien Mariam était heureuse ce jour-là.",
-    englishStoryTitle: "Mariam is Happy",
-    englishStoryContent: "Mariam opened the package and discovered a beautiful red bike. She jumped for joy and pedaled in the garden. Her friends came to admire her gift and laughed with her. Everyone could see how happy Mariam was that day."
+    mainStoryTitle: "Le Nuage Heureux",
+    mainStoryContent: "Un emoji souriant flottait au-dessus des nuages blancs et doux. Il regardait le ciel et chantait joyeusement. Les oiseaux volaient autour de lui et semblaient partager son bonheur. Tout le ciel semblait heureux en sa compagnie.",
+    englishStoryTitle: "The Happy Cloud",
+    englishStoryContent: "A smiling emoji floated above the soft white clouds. It looked at the sky and sang joyfully. Birds flew around it, seeming to share its happiness. The entire sky seemed happy in its company."
 },
-    
     
     {
     emoji: "🍀",
     word: "chanceux",
     ipa: "/ʃɑ̃sø/",
     image: "chanceux.png",
-     
-    sentence: 'Omar est <span style="color:#00ACFF; font-weight:bold">chanceux</span> d’avoir trouvé un trèfle à quatre feuilles.',
-    englishTr: 'Omar is <span style="color:#00ACFF; font-weight:bold">lucky</span> to have found a four-leaf clover.',
+    sentence: 'Le garçon musulman se sent <span style="color:#00ACFF; font-weight:bold">chanceux</span> d’être musulman.',
+    englishTr: 'The Muslim boy feels <span style="color:#00ACFF; font-weight:bold">lucky</span> to be Muslim.',
 
-    mainStoryTitle: "La Chance d’Omar",
-    mainStoryContent: "Omar se promenait dans le parc et aperçut un trèfle inhabituel. Il se pencha et réalisa qu’il avait quatre feuilles. Excité, il le montra à ses amis qui étaient impressionnés. Omar se sentit vraiment chanceux pour le reste de la journée.",
-    englishStoryTitle: "Omar is Lucky",
-    englishStoryContent: "Omar was walking in the park and noticed an unusual clover. He bent down and realized it had four leaves. Excited, he showed it to his friends who were impressed. Omar felt truly lucky for the rest of the day."
+    mainStoryTitle: "La Chance de Youssef",
+    mainStoryContent: "Youssef se leva tôt pour prier et ressentit une grande gratitude dans son cœur. Il observa le soleil se lever et pensa à toutes les bénédictions dans sa vie. Être musulman le rendait fier et heureux. Chaque jour, il se sentait chanceux de pouvoir pratiquer sa foi.",
+    englishStoryTitle: "Youssef Feels Lucky",
+    englishStoryContent: "Youssef got up early to pray and felt a deep gratitude in his heart. He watched the sun rise and thought of all the blessings in his life. Being Muslim made him proud and happy. Every day, he felt lucky to be able to practice his faith."
 },
     
     
     {
-    emoji: "☂️",
+    emoji: "🤦‍♂️",
     word: "malchanceux",
     ipa: "/mal ʃɑ̃sø/",
     image: "malchanceux.png",
-     
-    sentence: 'Yassin est <span style="color:#00ACFF; font-weight:bold">malchanceux</span> et son ballon tombe dans l’eau.',
-    englishTr: 'Yassin is <span style="color:#00ACFF; font-weight:bold">unlucky</span> and his ball fell into the water.',
+    sentence: 'L’homme se tape le front car il se sent <span style="color:#00ACFF; font-weight:bold">malchanceux</span>.',
+    englishTr: 'The man slaps his forehead because he feels <span style="color:#00ACFF; font-weight:bold">unlucky</span>.',
 
-    mainStoryTitle: "La Malchance de Yassin",
-    mainStoryContent: "Yassin jouait au ballon près de la rivière. Il donna un coup trop fort et le ballon tomba dans l’eau. Il essaya de le récupérer avec une branche, mais il glissa et tomba lui-même. Malgré sa malchance, il riait de la situation et alla chercher un nouveau ballon.",
-    englishStoryTitle: "Yassin is Unlucky",
-    englishStoryContent: "Yassin was playing with a ball near the river. He kicked it too hard and it fell into the water. He tried to retrieve it with a stick but slipped and fell himself. Despite his bad luck, he laughed at the situation and went to get a new ball."
+    mainStoryTitle: "La Malchance de Karim",
+    mainStoryContent: "Karim avait raté le bus et renversé son café en même temps. Il se tapa le front, exaspéré par sa malchance. Même ses amis riaient en voyant sa réaction. Karim se sentait vraiment malchanceux ce jour-là, mais il essaya de rester positif.",
+    englishStoryTitle: "Karim Feels Unlucky",
+    englishStoryContent: "Karim missed the bus and spilled his coffee at the same time. He slapped his forehead, frustrated by his bad luck. Even his friends laughed at his reaction. Karim felt really unlucky that day, but he tried to stay positive."
 },
-    
-    
     
     {
     emoji: "👹",
     word: "laid",
     ipa: "/lɛ/",
     image: "laid.png",
-     
-    sentence: 'Le masque de Samir est vraiment <span style="color:#00ACFF; font-weight:bold">laid</span>.',
-    englishTr: 'Samir’s mask is really <span style="color:#00ACFF; font-weight:bold">ugly</span>.',
+    sentence: 'Le masque coloré effrayant est considéré comme <span style="color:#00ACFF; font-weight:bold">laid</span> par certaines personnes.',
+    englishTr: 'The colorful scary mask is considered <span style="color:#00ACFF; font-weight:bold">ugly</span> by some people.',
 
-    mainStoryTitle: "Le Masque de Samir",
-    mainStoryContent: "Samir voulait effrayer ses amis avec un masque étrange. Il choisit le masque le plus bizarre qu’il trouva dans le grenier. Ses amis crièrent en voyant sa tête et éclatèrent de rire. Samir rigola aussi, heureux de les avoir surpris malgré le masque laid.",
-    englishStoryTitle: "Samir’s Ugly Mask",
-    englishStoryContent: "Samir wanted to scare his friends with a strange mask. He chose the weirdest mask he found in the attic. His friends screamed when they saw his face and burst out laughing. Samir laughed too, happy to have surprised them despite the ugly mask."
+    mainStoryTitle: "Le Masque Coloré",
+    mainStoryContent: "Un masque coloré et effrayant était exposé dans un musée. Certaines personnes le trouvaient laid et faisaient une grimace. D’autres l’admiraient pour ses couleurs et sa créativité. Le masque restait au centre de l’attention, intriguant chacun à sa manière.",
+    englishStoryTitle: "The Colorful Mask",
+    englishStoryContent: "A colorful and scary mask was displayed in a museum. Some people found it ugly and made a face. Others admired it for its colors and creativity. The mask remained the center of attention, intriguing everyone in their own way."
 },
     
     
@@ -250,72 +242,29 @@
     word: "vieux",
     ipa: "/vjø/",
     image: "vieux.png",
-     
-    sentence: 'Le grand-père de Amina est très <span style="color:#00ACFF; font-weight:bold">vieux</span> mais plein de sagesse.',
-    englishTr: 'Amina’s grandfather is very <span style="color:#00ACFF; font-weight:bold">old</span> but full of wisdom.',
+    sentence: 'Le grand-père âgé portant des lunettes médicales est très <span style="color:#00ACFF; font-weight:bold">vieux</span> mais gentil.',
+    englishTr: 'The old grandfather wearing medical glasses is very <span style="color:#00ACFF; font-weight:bold">old</span> but kind.',
 
-    mainStoryTitle: "La Sagesse du Grand-père",
-    mainStoryContent: "Le grand-père d’Amina racontait des histoires de son enfance. Ses petits-enfants l’écoutaient attentivement, fascinés par ses récits. Même s’il était vieux, il courait encore après le ballon avec eux. Tous admiraient son énergie et sa sagesse.",
-    englishStoryTitle: "Amina’s Old Grandfather",
-    englishStoryContent: "Amina’s grandfather told stories from his childhood. His grandchildren listened attentively, fascinated by his tales. Even though he was old, he still ran after the ball with them. Everyone admired his energy and wisdom."
+    mainStoryTitle: "Le Grand-père Gentil",
+    mainStoryContent: "Le grand-père marchait lentement dans le jardin avec ses lunettes médicales. Ses petits-enfants l’entouraient en riant et l’écoutaient raconter des histoires. Même s’il était vieux, il avait toujours de la patience et de la gentillesse pour chacun. Tout le monde l’admirait pour son cœur généreux.",
+    englishStoryTitle: "The Kind Old Grandfather",
+    englishStoryContent: "The grandfather walked slowly in the garden with his medical glasses. His grandchildren surrounded him laughing and listened to him tell stories. Even though he was old, he always had patience and kindness for everyone. Everyone admired him for his generous heart."
 },
     
     
     {
-    emoji: "👶",
+    emoji: "🧒",
     word: "jeune",
     ipa: "/ʒœn/",
     image: "jeune.png",
-     
-    sentence: 'Le petit frère de Sami est très <span style="color:#00ACFF; font-weight:bold">jeune</span> et curieux de tout.',
-    englishTr: 'Sami’s little brother is very <span style="color:#00ACFF; font-weight:bold">young</span> and curious about everything.',
+    sentence: 'Le jeune garçon avec une casquette et une chemise rouges est <span style="color:#00ACFF; font-weight:bold">jeune</span> et souriant.',
+    englishTr: 'The young boy wearing a red cap and red shirt is <span style="color:#00ACFF; font-weight:bold">young</span> and smiling.',
 
-    mainStoryTitle: "La Curiosité du Petit Frère",
-    mainStoryContent: "Le petit frère de Sami adorait explorer le jardin. Chaque nouvelle fleur ou insecte attirait son attention. Il posait toujours des questions et voulait tout toucher. Sami riait en voyant son frère si jeune et si curieux.",
-    englishStoryTitle: "Sami’s Young Brother",
-    englishStoryContent: "Sami’s little brother loved exploring the garden. Every new flower or insect caught his attention. He always asked questions and wanted to touch everything. Sami laughed seeing his brother so young and curious."
+    mainStoryTitle: "Le Petit Garçon Heureux",
+    mainStoryContent: "Le jeune garçon courait dans le parc avec un large sourire sur son visage. Sa casquette et sa chemise rouges brillaient sous le soleil. Il riait en jouant avec ses amis et lançait des ballons partout. Tout le monde admirait son énergie et sa joie de vivre, typiques d’un enfant jeune et heureux.",
+    englishStoryTitle: "The Happy Young Boy",
+    englishStoryContent: "The young boy ran in the park with a big smile on his face. His red cap and red shirt shone under the sun. He laughed while playing with his friends, tossing balls everywhere. Everyone admired his energy and joy, typical of a happy young child."
 },
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
