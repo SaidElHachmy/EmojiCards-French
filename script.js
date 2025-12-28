@@ -46,7 +46,7 @@ function createCard(card, index, removable = false) { // added index
 
     wordWrap.append(word, ipa);
     header.append(emojiSmall, wordWrap); // append counter in header
-    
+
     // IMAGE TITLE (hidden by default)
     const imgTitle = document.createElement("div");
     imgTitle.className = "card-image-title";
@@ -60,32 +60,14 @@ function createCard(card, index, removable = false) { // added index
     firstLine.style.border="none"
     firstLine.style.backgroundColor="#00ACFF"
 
-    // SENTENCE
-    const sentenceDiv = document.createElement("div");
-    sentenceDiv.className = "card-sentence";
-    sentenceDiv.innerHTML = card.sentence && card.sentence.trim() ? card.sentence : "....";
-
-    // ENGLISH
-    const englishDiv = document.createElement("div");
-    englishDiv.className = "card-sentence english-translation";
-    englishDiv.innerHTML = card.englishTr && card.englishTr.trim() ? card.englishTr : "....";
-
-    const secLine=document.createElement("hr")
-    secLine.style.width="50%"
-    secLine.style.height="2px"
-    secLine.style.borderRadius="2px"
-    secLine.style.border="none"
-    secLine.style.backgroundColor="#00ACFF"
-
-    // ASSEMBLE CARD
+    // ASSEMBLE CARD HEADER
     cardDiv.append(counterDiv);
     cardDiv.append(header);
-    
+
     // IMAGE WRAPPER
     const imageWrapper = document.createElement("div");
     imageWrapper.className = "card-image";
 
-    // APPEND TITLE FIRST (IMPORTANT)
     cardDiv.append(imgTitle);
     cardDiv.append(imageWrapper);
 
@@ -98,7 +80,6 @@ function createCard(card, index, removable = false) { // added index
     emojiBig.className = "emoji-fallback";
     emojiBig.textContent = card.emoji;
 
-    // IMAGE SUCCESS
     img.onload = () => {
         imageWrapper.appendChild(img);
         const capitalizedImageTitle =
@@ -108,7 +89,6 @@ function createCard(card, index, removable = false) { // added index
         imgTitle.style.display = "block";
     };
 
-    // IMAGE FAIL
     img.onerror = () => {
         imageWrapper.appendChild(emojiBig);
         imgTitle.textContent = "";
@@ -117,17 +97,42 @@ function createCard(card, index, removable = false) { // added index
 
     cardDiv.append(firstLine);
 
-    const examplesTitle = document.createElement("div");
-    examplesTitle.className = "card-examples-title";
-    examplesTitle.style.display = "block";
+    
+    // =========================
+    // EXAMPLES CONTAINERS
+    // =========================
 
-    const capitalizedWord =
-        card.word.charAt(0).toUpperCase() + card.word.slice(1);
+    // Main Example
+    const mainExampleDiv = document.createElement("div");
+    mainExampleDiv.className = "main-example";
 
-    examplesTitle.textContent = `📜 " ${capitalizedWord} " in 2 Languages :`;
-    cardDiv.append(examplesTitle);
-    cardDiv.append(sentenceDiv);
-    cardDiv.append(englishDiv);
+    const mainExampleTitle = document.createElement("div");
+    mainExampleTitle.className = "example-title";
+    mainExampleTitle.textContent = "French Example:";
+
+    const mainExampleContent = document.createElement("div");
+    mainExampleContent.className = "example-content";
+    mainExampleContent.innerHTML = card.sentence && card.sentence.trim() ? card.sentence : "No example available.";
+
+    mainExampleDiv.append(mainExampleTitle, mainExampleContent);
+
+    // English Example
+    const englishExampleDiv = document.createElement("div");
+    englishExampleDiv.className = "english-example";
+
+    const englishExampleTitle = document.createElement("div");
+    englishExampleTitle.className = "example-title";
+    englishExampleTitle.textContent = "English Example:";
+
+    const englishExampleContent = document.createElement("div");
+    englishExampleContent.className = "example-content";
+    englishExampleContent.innerHTML = card.englishTr && card.englishTr.trim() ? card.englishTr : "No example available.";
+
+    englishExampleDiv.append(englishExampleTitle, englishExampleContent);
+
+    // Append below examples title
+    cardDiv.append(mainExampleDiv);
+    cardDiv.append(englishExampleDiv);
 
     // =========================
     // STORY TOGGLE BUTTON
