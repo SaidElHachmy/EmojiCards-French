@@ -224,20 +224,7 @@ body {
     justify-content: center;
 }
 
-/* =====================
-   VIDEO
-===================== */
-.card-video {
-    width: 100%;
-    margin: 10px 0;
-    flex-shrink: 0;
-}
 
-.card-video video {
-    width: 100%;
-    max-height: 200px;
-    border-radius: 14px;
-}
 .card-image-title {
     font-weight: 600;
     font-size: 14px;
@@ -255,14 +242,40 @@ body {
 }
 
 
+/* =========================
+   Examples Containers
+========================= */
 
-.card-video-title {
-    font-weight: 600;
-    font-size: 14px;
-    margin-bottom: 6px;
-    color: #00ACFF;
-    text-align: center;
+.main-example,
+.english-example {
+    background-color: #f0f8ff; /* light, soft background */
+    border: 2px solid #00ACFF;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.example-title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #0077cc;
+    margin-bottom: 6px;
+}
+
+.example-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Optional: hover effect for slightly interactive feel */
+.main-example:hover,
+.english-example:hover {
+    background-color: #e0f0ff;
+}
+
+
 
 
 /* ===== Story Toggle Button ===== */
@@ -397,4 +410,4 @@ body {
     .card-word {
         font-size: 16px;
     }
-}
+   }
