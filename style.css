@@ -1,9 +1,81 @@
 /* =====================
+   THEME VARIABLES
+===================== */
+
+/* ☀️ LIGHT THEME (DEFAULT) */
+:root {
+    --bg-main: linear-gradient(135deg, #f2f7fb, #eef6ff);
+    --navbar-bg: rgba(255, 255, 255, 0.9);
+    --navbar-border: #00ACFF;
+    --primary: #00ACFF;
+    --primary-dark: #007fbf;
+    --text-main: #333;
+    --text-muted: #666;
+    --text-soft: #0077cc;
+    --card-bg: rgba(255, 255, 255, 0.95);
+    /*--card-shadow: rgba(0,0,0,0.12);*/
+    /*--card-shadow-hover: rgba(0,0,0,0.18);*/
+    
+    --card-shadow: #00ACFF;
+    --card-shadow-hover: #00ACFF;
+    
+    
+    --card-image-bg: linear-gradient(135deg, #00ACFF, #007fbf);
+    --emoji-shadow: #00ACFF;
+    --example-bg: #f0f8ff;
+    --example-border: #0077cc;
+    --example-title: #0077cc;
+    --story-border: #0077aa;
+    --story-title: #0077aa;
+    --btn-bg: #00ACFF;
+    --btn-bg-hover: #0088cc;
+    
+    --btn-remove: linear-gradient(135deg, #cc0000, #ff4d4d);
+    --temp-msg: #ff4d4d;
+    --footer-text: #666;
+    --footer-border: #ddd;
+    --card-example-shadow: rgba(0, 0, 0, 0.1);
+    --card-focus-shadow: rgba(0, 172, 255, 0.2);
+}
+
+/* 🌙 DARK THEME */
+[data-theme="dark"] {
+    --bg-main: linear-gradient(135deg, #0b0b0b, #1a1a1a);          /* dark opposite of #f2f7fb / #eef6ff */
+    --navbar-bg: rgba(33, 33, 33, 0.95);                           /* opposite of white */
+    --navbar-border: #0088cc;                                      /* opposite of #00ACFF */
+    --primary: #0088cc;                                            /* opposite of #00ACFF */
+    --primary-dark: #005f99;                                       /* opposite of #007fbf */
+    --text-main: #f0f0f0;                                          /* opposite of #333 */
+    --text-muted: #ccc;                                            /* opposite of #666 */
+    --text-soft: #33aaff;                                          /* opposite of #0077cc */
+    --card-bg: rgba(11,11,11,0.95);                                /* almost black */
+    --card-shadow: #0088cc;                         /* lighter shadow */
+    --card-shadow-hover: #0088cc;
+    --card-image-bg: linear-gradient(135deg, #0088cc, #005f99);
+    --emoji-shadow: #0088cc;
+    --example-bg: #222222;                                         /* dark version of #f0f8ff */
+    --example-border: #33aaff;                                     /* opposite of #0077cc */
+    --example-title: #33aaff;
+    --story-border: #33aaff;                                       /* opposite of #0077aa */
+    --story-title: #33aaff;
+    --btn-bg: #0088cc;
+    --btn-bg-hover: #005f99;
+   
+    --btn-remove: linear-gradient(135deg, #ff4d4d, #cc0000);      /* unchanged as requested */
+    --temp-msg: #ff4d4d;                                          /* same as light */
+    --footer-text: #ccc;
+    --footer-border: #444;
+    --card-example-shadow: rgba(0,0,0,0.1);                        /* unchanged */
+    --card-focus-shadow: rgba(0,172,255,0.2);                     /* unchanged */
+}
+
+
+/* =====================
    GLOBAL
 ===================== */
 body {
     font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-    background: linear-gradient(135deg, #f2f7fb, #eef6ff);
+    background: var(--bg-main);
     padding: 16px;
     margin: 0;
 }
@@ -16,9 +88,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 14px 18px;
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--navbar-bg);
     backdrop-filter: blur(8px);
-    border-bottom: 2px solid #00ACFF;
+    border-bottom: 2px solid var(--navbar-border);
     margin-bottom: 18px;
     border-radius: 14px;
 }
@@ -26,15 +98,28 @@ body {
 #siteTitle {
     font-size: 18px;
     font-weight: 700;
-    color: #00ACFF;
+    color: var(--primary);
     letter-spacing: 0.5px;
 }
+
+.firstLine {
+    
+    background-color: var(--primary);
+    width:50%;
+    height:2px;
+    border-radius:2px;
+    border:none;
+}
+
+
+
 
 .contact-tab {
     text-decoration: none;
     font-size: 14px;
     color: white;
-    background: linear-gradient(135deg, #00ACFF, #007fbf);
+    margin: 5px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
     padding: 7px 14px;
     border-radius: 999px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -42,8 +127,44 @@ body {
 
 .contact-tab:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 14px rgba(0, 172, 255, 0.4);
+    box-shadow: 0 6px 14px var(--primary);
 }
+#divToggleTheme{
+    margin:10px auto;display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 18px;
+    background: var(--navbar-bg);
+    backdrop-filter: blur(8px);
+    border-bottom: 2px solid var(--navbar-border);
+    margin-bottom: 18px;
+    border-radius: 14px;
+}
+
+
+/* =====================
+   THEME TOGGLE BUTTON
+===================== */
+#themeToggle {
+    text-decoration: none;
+    font-size: 14px;
+    
+    margin: 5px;
+    color: white;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s;
+}
+
+#themeToggle:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 10px var(--primary);
+}
+
+
 
 /* =====================
    SEARCH AREA
@@ -67,15 +188,15 @@ body {
 }
 
 #search-area input:focus {
-    border-color: #00ACFF;
-    box-shadow: 0 0 0 3px rgba(0, 172, 255, 0.2);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(77, 184, 255, 0.2);
 }
 
 #search-area button {
     padding: 10px 18px;
     border-radius: 10px;
     border: none;
-    background: #00ACFF;
+    background: var(--btn-bg);
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -85,7 +206,7 @@ body {
 
 #search-area button:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 14px rgba(0, 172, 255, 0.4);
+    box-shadow: 0 6px 14px var(--primary);
 }
 
 /* =====================
@@ -102,7 +223,7 @@ body {
 
 /* temporary message */
 .temp-message {
-    color: #ff4d4d;
+    color: var(--temp-msg);
     font-size: 15px;
     text-align: center;
 }
@@ -114,35 +235,32 @@ body {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 800;
-    color: #00ACFF;
+    color: var(--primary);
     margin: 24px 0 14px;
 }
 
 /* =====================
-   CARD (IDENTICAL EVERYWHERE)
-===================== */
-
-/* =====================
-   CARD (IDENTICAL EVERYWHERE)
+   CARD
 ===================== */
 .card {
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--card-bg);
     border-radius: 18px;
     padding: 14px;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+    box-shadow: 0 2px 12px var(--card-shadow);
     display: flex;
     flex-direction: column;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     box-sizing: border-box;
 
     width: 100%;
-    max-width: 290px;          /* ✅ HARD LIMIT */
-    margin-left: auto;         /* ✅ CENTER IN GRID */
-    margin-right: auto;        /* ✅ CENTER IN GRID */
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .card:hover {
     transform: translateY(-6px) scale(1.01);
-    box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+    box-shadow: 0 2px 12px var(--card-shadow-hover);
 }
 
 /* =====================
@@ -157,7 +275,7 @@ body {
 
 .card-emoji {
     font-size: 34px;
-    filter: drop-shadow(0 0 4px #00ACFF);
+    filter: drop-shadow(0 0 4px var(--emoji-shadow));
 }
 
 .card-word-wrap {
@@ -168,30 +286,23 @@ body {
 
 .card-word {
     font-size: 18px;
-    color: #00ACFF;
+    color: var(--primary);
     font-weight: 800;
 }
 
-
-
 .card-ipa {
     font-size: 14px;
-    color: #666;
+    color: var(--text-muted);
     font-style: italic;
 }
-
-
 
 .card-counter {
     font-weight: 800;
     font-size: 18px;
     margin-bottom: 6px;
-    color: #00ACFF;
+    color: var(--primary);
     text-align: center;
 }
-
-
-
 
 /* =====================
    IMAGE / EMOJI AREA
@@ -200,7 +311,7 @@ body {
     width: 100%;
     height: 140px;
     border-radius: 14px;
-    background: linear-gradient(135deg, #00ACFF, #007fbf);
+    background: var(--card-image-bg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,66 +335,52 @@ body {
     justify-content: center;
 }
 
-
-.card-image-title {
-    font-weight: 600;
-    font-size: 14px;
-    margin-bottom: 6px;
-    color: #00ACFF;
-    text-align: center;
-}
-
+.card-image-title,
 .card-examples-title {
     font-weight: 600;
     font-size: 14px;
     margin-bottom: 6px;
-    color: #00ACFF;
+    color: var(--primary);
     text-align: center;
 }
-
 
 /* =========================
    Examples Containers
 ========================= */
-
 .main-example,
 .english-example {
-    background-color: #f0f8ff; /* light, soft background */
-    border: 2px solid #00ACFF;
+    background-color: var(--example-bg);
+    border: 2px solid var(--example-border);
     border-radius: 12px;
     padding: 12px 16px;
     margin: 8px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .example-title {
     font-weight: bold;
     font-size: 1rem;
-    color: #0077cc;
+    color: var(--example-title);
     margin-bottom: 6px;
 }
 
 .example-content {
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #333;
+    color: var(--text-main);
 }
 
-/* Optional: hover effect for slightly interactive feel */
 .main-example:hover,
 .english-example:hover {
-    background-color: #e0f0ff;
+    background-color: var(--example-bg);
 }
-
-
-
 
 /* ===== Story Toggle Button ===== */
 .story-toggle-btn {
     display: inline-block;
     margin: 10px 0;
     padding: 8px 15px;
-    background-color: #00ACFF;
+    background-color: var(--btn-bg);
     color: white;
     font-weight: bold;
     border: none;
@@ -293,32 +390,30 @@ body {
 }
 
 .story-toggle-btn:hover {
-    background-color: #0088cc;
+    background-color: var(--btn-bg-hover);
     transform: scale(1.05);
 }
 
 /* ===== Story Container ===== */
 .card-story-container {
-    display: none; /* hidden by default */
+    display: none;
     margin-top: 10px;
     padding: 12px;
-    border-left: 4px solid #00ACFF;
-    background-color: #f0f8ff;
+    border-left: 4px solid var(--story-border);
+    background-color: var(--example-bg);
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* ===== Story Titles ===== */
 .card-story-container .story-title {
     font-weight: bold;
-    color: #0077aa;
+    color: var(--story-title);
     margin-bottom: 6px;
 }
 
-/* ===== Story Content ===== */
 .card-story-container .story-content {
     font-size: 0.95rem;
-    color: #333;
+    color: var(--text-main);
     line-height: 1.5;
 }
 
@@ -329,12 +424,12 @@ body {
     margin: 10px 0 4px;
     font-size: 14px;
     text-align: center;
-    color: #333;
+    color: var(--text-main);
 }
 
 .english-translation {
     font-size: 13px;
-    color: #666;
+    color: var(--text-muted);
     font-style: italic;
     text-align: center;
 }
@@ -346,7 +441,8 @@ body {
     width: 100%;
 }
 
-.download-btn,
+
+
 #remove-btn {
     margin-top: 10px;
     padding: 8px 12px;
@@ -355,21 +451,7 @@ body {
     font-size: 14px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.download-btn {
-    background: linear-gradient(135deg, #2ecc71, #27ae60);
-    color: white;
-    border: none;
-}
-
-.download-btn:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 6px 14px rgba(46, 204, 113, 0.4);
-}
-
-#remove-btn {
-    background: linear-gradient(135deg, #ff4d4d, #cc0000);
+    background: var(--btn-remove);
     color: white;
     border: none;
 }
@@ -386,9 +468,9 @@ body {
     margin-top: 40px;
     text-align: center;
     font-size: 14px;
-    color: #666;
+    color: var(--footer-text);
     padding: 18px 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--footer-border);
 }
 
 /* =====================
