@@ -1,47 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Emoji Cards — French</title>
+
+    <!-- Main Styles -->
     <link rel="stylesheet" href="style.css">
+      <link rel="icon" type="image/jpeg" href="Assets/EmojiCardsLogo1.png">
 </head>
-<body>
-<!-- Top Navbar -->
+
+<body data-theme="light">
+<!-- ===================== -->
+<!-- 🔝 TOP NAVBAR -->
+<!-- ===================== -->
 <div class="top">
     <span id="siteTitle">📘 Emoji Cards — French</span>
 
     <div class="top-right">
-        <a href="https://saidelhachmy.github.io/#about"
-           target="_blank"
-           class="contact-tab">
-           Contact
-        </a>
+               
+       
+
+
+
     </div>
 </div>
 
+
+<div id="divToggleTheme" style="">
+    
+    
+    <!-- 🌙 Theme Toggle -->
+        <button id="themeToggle" title="Toggle theme">
+            🌙
+        </button>
+       
+            <a
+            href="https://saidelhachmy.github.io/#about"
+            target="_blank"
+            class="contact-tab"
+        >
+            Contact
+        </a>
+    
+    
+</div>
+
+<!-- ===================== -->
+<!-- 🔍 SEARCH AREA -->
+<!-- ===================== -->
 <div id="search-area">
-    <input id="search-input" type="text" placeholder="Search word or emoji..." />
+    <input
+        id="search-input"
+        type="text"
+        placeholder="Search word or emoji..."
+        autocomplete="off"
+    />
     <button id="search-btn">Search</button>
 </div>
+
 <div id="search-result" class="search-grid"></div>
 
-
-
-<!-- Title for all cards -->
+<!-- ===================== -->
+<!-- 🦸 MARVEL TITLE -->
+<!-- ===================== -->
 <div id="all-cards-title" class="cards-title">
-    📚 All Emoji Cards :
+    Emoji Cards
 </div>
 
-
+<!-- ===================== -->
+<!-- 🃏 CARDS CONTAINER -->
+<!-- ===================== -->
 <div id="cards-container"></div>
 
+<!-- ===================== -->
+<!-- 🔻 FOOTER -->
+<!-- ===================== -->
 <footer id="app-footer">
     © <span id="year"></span> — Said ElHachmy. All rights reserved
 </footer>
 
+<!-- ===================== -->
+<!-- 📜 SCRIPTS -->
+<!-- ===================== -->
 <script src="cardsData.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
 <script src="script.js"></script>
+
 </body>
-</html>
+    </html>
