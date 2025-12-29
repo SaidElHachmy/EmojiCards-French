@@ -130,7 +130,7 @@ body {
     box-shadow: 0 6px 14px var(--primary);
 }
 #divToggleTheme{
-    margin:10px auto;display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 14px 18px;
