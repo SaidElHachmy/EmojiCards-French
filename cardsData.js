@@ -265,7 +265,192 @@
     englishStoryTitle: "The Happy Young Boy",
     englishStoryContent: "The young boy ran in the park with a big smile on his face. His red cap and red shirt shone under the sun. He laughed while playing with his friends, tossing balls everywhere. Everyone admired his energy and joy, typical of a happy young child."
 },
+
+     {
+    emoji: "📊",
+    word: "comptable",
+    ipa: "/kɔ̃ptabl/",
+    image: "comptable.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">comptable</span> vérifie les chiffres avec attention.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">accountant</span> checks the numbers carefully.',
+
+    mainStoryTitle: "Le Travail du Comptable",
+    mainStoryContent: "Ahmed travaillait dans un bureau calme rempli de dossiers et de chiffres. Chaque matin, il organisait les factures et vérifiait les comptes de l’entreprise. Ses collègues lui faisaient confiance pour son sérieux et sa précision. Grâce à son travail, tout restait clair et bien organisé.",
+    englishStoryTitle: "The Accountant’s Job",
+    englishStoryContent: "Ahmed worked in a quiet office filled with files and numbers. Every morning, he organized invoices and checked the company’s accounts. His colleagues trusted him for his seriousness and accuracy. Thanks to his work, everything stayed clear and well organized."
+},
     
+    {
+    emoji: "🎬",
+    word: "acteur",
+    ipa: "/aktœʁ/",
+    image: "acteur.png",
+    sentence: 'L’<span style="color:#00ACFF; font-weight:bold">acteur</span> joue une scène émouvante sur scène.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">actor</span> performs an emotional scene on stage.',
+
+    mainStoryTitle: "Sous les Projecteurs",
+    mainStoryContent: "Omar montait sur scène sous les lumières brillantes du théâtre. Il mémorisait ses répliques et répétait chaque geste avec soin. Le public restait silencieux, captivé par son jeu. À la fin de la scène, les applaudissements remplissaient la salle.",
+    englishStoryTitle: "Under the Spotlight",
+    englishStoryContent: "Omar stepped onto the stage under the bright theater lights. He memorized his lines and practiced every movement carefully. The audience stayed silent, captivated by his performance. At the end of the scene, applause filled the room."
+},
+    
+    {
+    emoji: "🎭",
+    word: "actrice",
+    ipa: "/aktʁis/",
+    image: "actrice.png",
+    sentence: 'L’<span style="color:#00ACFF; font-weight:bold">actrice</span> sourit devant les caméras.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">actress</span> smiles in front of the cameras.',
+
+    mainStoryTitle: "Sur la Scène",
+    mainStoryContent: "Amina se préparait dans les coulisses avant le début du spectacle. Elle respirait profondément et ajustait son costume avec soin. Quand elle entra sur scène, le public resta attentif à chaque mot. Son jeu naturel touchait les spectateurs et rendait l’histoire vivante.",
+    englishStoryTitle: "On Stage",
+    englishStoryContent: "Amina prepared backstage before the show began. She took a deep breath and carefully adjusted her costume. When she stepped onto the stage, the audience listened closely to every word. Her natural acting brought the story to life."
+},
+    
+    {
+    emoji: "🖋️",
+    word: "auteur",
+    ipa: "/otœʁ/",
+    image: "auteur.png",
+    sentence: 'L’<span style="color:#00ACFF; font-weight:bold">auteur</span> écrit une histoire inspirante dans son carnet.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">author</span> writes an inspiring story in his notebook.',
+
+    mainStoryTitle: "L’Histoire de l’Auteur",
+    mainStoryContent: "Samir s’asseyait chaque soir près de la fenêtre avec un carnet et un stylo. Il observait la rue calme et laissait son imagination voyager. Les mots venaient doucement et formaient des histoires pleines d’émotions. Écrire était pour lui une manière de partager ses pensées avec le monde.",
+    englishStoryTitle: "The Author’s Story",
+    englishStoryContent: "Samir sat every evening near the window with a notebook and a pen. He watched the quiet street and let his imagination travel. Words came slowly and formed emotional stories. Writing was his way of sharing his thoughts with the world."
+},
+    
+    {
+    emoji: "🥖",
+    word: "boulanger",
+    ipa: "/bulɑ̃ʒe/",
+    image: "boulanger.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">boulanger</span> prépare du pain frais dès le matin.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">baker</span> prepares fresh bread early in the morning.',
+
+    mainStoryTitle: "Le Pain du Matin",
+    mainStoryContent: "Hassan se levait avant le lever du soleil pour ouvrir sa boulangerie. L’odeur du pain chaud remplissait la rue et attirait les voisins. Il pétrissait la pâte avec soin et souriait en voyant les clients entrer. Son pain rendait les matins plus chaleureux pour tout le quartier.",
+    englishStoryTitle: "Morning Bread",
+    englishStoryContent: "Hassan woke up before sunrise to open his bakery. The smell of warm bread filled the street and attracted neighbors. He kneaded the dough carefully and smiled as customers walked in. His bread made mornings warmer for the whole neighborhood."
+},
+    
+    
+    {
+    emoji: "🏦",
+    word: "banquier",
+    ipa: "/bɑ̃kje/",
+    image: "banquier.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">banquier</span> aide les clients à gérer leur argent.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">banker</span> helps clients manage their money.',
+
+    mainStoryTitle: "Au Bureau de la Banque",
+    mainStoryContent: "Yacine travaillait dans une grande banque au centre de la ville. Il écoutait les clients avec attention et leur proposait des solutions adaptées. Chaque dossier était traité avec sérieux et respect. Son travail apportait confiance et sécurité à beaucoup de familles.",
+    englishStoryTitle: "At the Bank Office",
+    englishStoryContent: "Yacine worked in a large bank in the city center. He listened carefully to clients and offered suitable solutions. Each file was handled with professionalism and respect. His work brought trust and security to many families."
+},
+    
+    {
+    emoji: "💈",
+    word: "coiffeur",
+    ipa: "/kwafœʁ/",
+    image: "coiffeur.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">coiffeur</span> coupe les cheveux avec précision.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">barber</span> cuts hair with precision.',
+
+    mainStoryTitle: "Chez le Coiffeur",
+    mainStoryContent: "Nabil ouvrait son salon chaque matin avec énergie. Il accueillait les clients avec le sourire et écoutait leurs demandes. Les ciseaux glissaient rapidement et les coiffures prenaient forme. Les clients repartaient contents et confiants.",
+    englishStoryTitle: "At the Barber Shop",
+    englishStoryContent: "Nabil opened his shop every morning with energy. He welcomed customers with a smile and listened to their requests. The scissors moved quickly and hairstyles took shape. Customers left happy and confident."
+},
+    
+    {
+    emoji: "🥩",
+    word: "boucher",
+    ipa: "/buʃe/",
+    image: "boucher.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">boucher</span> prépare la viande avec soin.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">butcher</span> prepares the meat carefully.',
+
+    mainStoryTitle: "À la Boucherie",
+    mainStoryContent: "Rachid travaillait derrière le comptoir de sa boucherie de quartier. Il choisissait la viande avec attention et conseillait ses clients. Son magasin était toujours propre et bien organisé. Les habitants lui faisaient confiance pour la qualité de ses produits.",
+    englishStoryTitle: "At the Butcher Shop",
+    englishStoryContent: "Rachid worked behind the counter of his neighborhood butcher shop. He selected the meat carefully and advised his customers. His shop was always clean and well organized. The locals trusted him for the quality of his products."
+},
+    
+    {
+    emoji: "🕵️‍♂️",
+    word: "cambrioleur",
+    ipa: "/kɑ̃b ʁijɔlœʁ/",
+    image: "cambrioleur.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">cambrioleur</span> essaie d’entrer discrètement dans la maison.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">burglar</span> tries to enter the house quietly.',
+
+    mainStoryTitle: "La Nuit Silencieuse",
+    mainStoryContent: "La rue était calme et sombre quand un homme avançait lentement près des maisons. Il regardait autour de lui pour vérifier que personne ne le voyait. Un bruit soudain l’obligea à s’arrêter et à réfléchir. Finalement, il s’éloigna en courant, laissant la nuit redevenir tranquille.",
+    englishStoryTitle: "The Silent Night",
+    englishStoryContent: "The street was quiet and dark as a man moved slowly near the houses. He looked around to make sure no one was watching him. A sudden noise made him stop and think. In the end, he ran away, and the night became peaceful again."
+},
+    
+    {
+    emoji: "👨‍🍳",
+    word: "chef",
+    ipa: "/ʃɛf/",
+    image: "chef.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">chef</span> prépare un plat délicieux en cuisine.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">chef</span> prepares a delicious dish in the kitchen.',
+
+    mainStoryTitle: "En Cuisine avec le Chef",
+    mainStoryContent: "Le chef travaillait dans une cuisine animée pleine de parfums. Il goûtait la sauce et ajustait les épices avec soin. Les assistants observaient ses gestes précis et apprenaient beaucoup. À la fin, le plat était prêt et tout le monde attendait avec impatience.",
+    englishStoryTitle: "In the Kitchen with the Chef",
+    englishStoryContent: "The chef worked in a busy kitchen full of aromas. He tasted the sauce and adjusted the spices carefully. The assistants watched his precise movements and learned a lot. In the end, the dish was ready and everyone waited eagerly."
+},
+    
+    
+    {
+    emoji: "🪚",
+    word: "menuisier",
+    ipa: "/mə.nɥi.zje/",
+    image: "menuisier.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">menuisier</span> construit une belle étagère en bois.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">carpenter</span> builds a beautiful wooden shelf.',
+
+    mainStoryTitle: "Le Travail du Menuisier",
+    mainStoryContent: "Karim travaillait dans son atelier, entouré de planches et d’outils en bois. Il mesurait soigneusement chaque morceau avant de le couper. Ses mains expertes assemblent les pièces avec précision. À la fin de la journée, une étagère solide et magnifique était prête.",
+    englishStoryTitle: "The Carpenter’s Work",
+    englishStoryContent: "Karim worked in his workshop, surrounded by planks and wooden tools. He measured each piece carefully before cutting it. His skilled hands assembled the pieces with precision. By the end of the day, a strong and beautiful shelf was ready."
+},
+    
+    {
+    emoji: "🦹‍♂️",
+    word: "criminel",
+    ipa: "/kʁiminɛl/",
+    image: "criminel.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">criminel</span> planifie un mauvais coup dans l’ombre.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">criminal</span> plans a bad deed in the shadows.',
+
+    mainStoryTitle: "Le Plan du Criminel",
+    mainStoryContent: "Dans une ruelle sombre, un homme préparait ses plans en silence. Il vérifiait chaque détail pour ne pas se faire attraper. Les passants ne se doutaient de rien et continuaient leur chemin. Finalement, il rangea ses affaires et partit, laissant la nuit calme et tranquille.",
+    englishStoryTitle: "The Criminal’s Plan",
+    englishStoryContent: "In a dark alley, a man quietly prepared his plans. He checked every detail to avoid being caught. Passersby suspected nothing and continued on their way. Eventually, he packed his things and left, leaving the night calm and peaceful."
+},
+    
+    {
+    emoji: "👮‍♂️",
+    word: "policier",
+    ipa: "/pɔlisje/",
+    image: "policier.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">policier</span> surveille la rue pour assurer la sécurité.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">police officer</span> watches the street to ensure safety.',
+
+    mainStoryTitle: "Le Travail du Policier",
+    mainStoryContent: "Samir patrouillait dans le quartier en observant attentivement les rues. Il aidait les habitants et répondait rapidement aux appels. Les enfants le saluaient avec un sourire chaque matin. Grâce à ses actions, tout le quartier se sentait plus sûr.",
+    englishStoryTitle: "The Police Officer’s Job",
+    englishStoryContent: "Samir patrolled the neighborhood, carefully observing the streets. He helped the residents and responded quickly to calls. Children greeted him with a smile every morning. Thanks to his actions, the entire neighborhood felt safer."
+},
+    
+               
     
     
     
