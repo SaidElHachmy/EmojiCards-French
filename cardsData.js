@@ -411,7 +411,7 @@
     {
     emoji: "🪚",
     word: "menuisier",
-    ipa: "/mə.nɥi.zje/",
+    ipa: "/mə nɥi zje/",
     image: "menuisier.png",
     sentence: 'Le <span style="color:#00ACFF; font-weight:bold">menuisier</span> construit une belle étagère en bois.',
     englishTr: 'The <span style="color:#00ACFF; font-weight:bold">carpenter</span> builds a beautiful wooden shelf.',
