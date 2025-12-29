@@ -1,5 +1,32 @@
 //console.log("It starts!");
 
+/* =========================
+   THEME TOGGLE
+========================= */
+const themeToggleBtn = document.getElementById("themeToggle");
+
+// Load saved theme from localStorage if exists
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme) {
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    themeToggleBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+}
+
+// Toggle theme on click
+themeToggleBtn.addEventListener("click", () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+
+    // Change button icon
+    themeToggleBtn.textContent = newTheme === "dark" ? "☀️" : "🌙";
+
+    // Save preference
+    localStorage.setItem("theme", newTheme);
+});
+
+//console.log("It starts!");
+
 const cardsContainer = document.getElementById("cards-container");
 const searchInput = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
@@ -54,11 +81,8 @@ function createCard(card, index, removable = false) { // added index
     imgTitle.textContent = "";
 
     const firstLine=document.createElement("hr")
-    firstLine.style.width="50%"
-    firstLine.style.height="2px"
-    firstLine.style.borderRadius="2px"
-    firstLine.style.border="none"
-    firstLine.style.backgroundColor="#00ACFF"
+    firstLine.className = "firstLine";
+
 
     // ASSEMBLE CARD HEADER
     cardDiv.append(counterDiv);
