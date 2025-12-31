@@ -26,6 +26,8 @@ themeToggleBtn.addEventListener("click", () => {
 });
 
 //console.log("It starts!");
+const navbar = document.getElementById("navbar");
+
 
 const cardsContainer = document.getElementById("cards-container");
 const searchInput = document.getElementById("search-input");
@@ -57,6 +59,7 @@ function createCard(card, index, removable = false) { // added index
     emojiSmall.textContent = card.emoji;
 
     const counterDiv = document.createElement("div");
+    counterDiv.id="counterDiv"
     counterDiv.className = "card-counter";
     counterDiv.textContent = `[ ${index + 1} ]`; // counter [1], [2], [3]...
 
@@ -238,6 +241,54 @@ function createCard(card, index, removable = false) { // added index
     // Append button and container
     cardDiv.append(storyButton);
     cardDiv.append(storyContainer);
+    
+    
+    
+    
+    const containerScroll = document.createElement("div");
+    containerScroll.className = "containerScroll";
+    
+    
+    const topScroll = document.createElement("button");
+    topScroll.className = "topScroll";
+    topScroll.textContent = "⬆️ Top";
+    containerScroll.append(topScroll);
+    
+    
+    topScroll.addEventListener("click", () => {
+    if (!navbar) return;
+
+    navbar.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+});
+
+    
+    
+    
+    
+    
+    const cardScroll = document.createElement("button");
+    cardScroll.className = "cardScroll";
+    cardScroll.textContent = "🔼 Card";
+    containerScroll.append(cardScroll);
+    
+    cardScroll.addEventListener("click", () => {
+    
+    if (!counterDiv) return;
+
+    counterDiv.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+});
+    
+    
+    
+    cardDiv.append(containerScroll);
+    
+    
 
     if (removable) {
         const removeBtn = document.createElement("button");
