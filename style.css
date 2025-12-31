@@ -30,6 +30,22 @@
     --btn-bg: #00ACFF;
     --btn-bg-hover: #0088cc;
     
+    --topScroll-bg: white;
+    --topScroll-bg-hover: darkred;
+    --topScroll-text: red;
+    --topScroll-text-hover: white;
+    --topScroll-border: red;
+    --topScroll-border-hover: darkred;
+
+
+    --cardScroll-bg: white;
+    --cardScroll-bg-hover: darkgreen;
+    --cardScroll-text: green;
+    --cardScroll-text-hover: white;
+    --cardScroll-border: green;
+    --cardScroll-border-hover: darkgreen;
+    
+    
     --btn-remove: linear-gradient(135deg, #cc0000, #ff4d4d);
     --temp-msg: #ff4d4d;
     --footer-text: #666;
@@ -60,6 +76,32 @@
     --story-title: #33aaff;
     --btn-bg: #0088cc;
     --btn-bg-hover: #005f99;
+    
+    
+    
+        
+    --topScroll-bg: red;
+    --topScroll-bg-hover: darkred;
+    --topScroll-text: white;
+    --topScroll-text-hover: white;
+    --topScroll-border: red;
+    --topScroll-border-hover: white;
+
+
+    --cardScroll-bg: green;
+    --cardScroll-bg-hover: darkgreen;
+    --cardScroll-text: white;
+    --cardScroll-text-hover: white;
+    --cardScroll-border: green;
+    --cardScroll-border-hover: white;
+    
+    
+    
+    
+    
+    
+    
+    
    
     --btn-remove: linear-gradient(135deg, #ff4d4d, #cc0000);      /* unchanged as requested */
     --temp-msg: #ff4d4d;                                          /* same as light */
@@ -151,10 +193,10 @@ body {
     
     margin: 5px;
     color: white;
-    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    background: white;
     padding: 7px 14px;
     border-radius: 999px;
-    border: none;
+    border:  2px solid var(--primary);
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s;
 }
@@ -416,6 +458,60 @@ body {
     color: var(--text-main);
     line-height: 1.5;
 }
+
+
+.topScroll{
+    background: var(--topScroll-bg);
+    color: var(--topScroll-text);
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid var(--topScroll-border);
+    padding: 4px 8px;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    margin: 5px;
+}
+
+.topScroll:hover{
+    background: var(--topScroll-bg-hover);
+    border: 2px solid var(--topScroll-border-hover);
+    color: var(--topScroll-text-hover);
+}
+
+
+
+
+.cardScroll{
+    background: var(--cardScroll-bg);
+    margin: 5px;
+    font-weight: bold;
+    color: var(--cardScroll-text);
+    border-radius: 5px;
+    border: 2px solid var(--cardScroll-border);
+    cursor: pointer;
+    padding: 4px 8px;
+    height: 40px;
+    width: auto;
+}
+
+
+.cardScroll:hover{
+    background: var(--cardScroll-bg-hover);
+    border: 2px solid var(--cardScroll-border-hover);
+    color: var(--cardScroll-text-hover);
+}
+
+.containerScroll{
+    display: flex;
+    border: none;
+    padding: 2px 4px;
+    justify-content: space-between;
+    height: 50px;
+    width: 80%;
+    margin: 25px auto;
+}
+
 
 /* =====================
    SENTENCE
