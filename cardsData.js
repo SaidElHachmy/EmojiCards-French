@@ -451,6 +451,195 @@
 },
     
                
+        {
+    emoji: "🍍",
+    word: "ananas",
+    ipa: "/anana/",
+    image: "ananas.png",
+    sentence: 'L’<span style="color:#00ACFF; font-weight:bold">ananas</span> est sucré et plein de saveur.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">pineapple</span> is sweet and full of flavor.',
+
+    mainStoryTitle: "Le Goût de l’Ananas",
+    mainStoryContent: "Sur la table de la cuisine, un ananas bien mûr attirait l’attention. Sa couleur dorée promettait un goût délicieux. Quand il fut coupé, son parfum se répandit dans toute la pièce. Tout le monde appréciait sa fraîcheur pendant le dessert.",
+    englishStoryTitle: "The Taste of Pineapple",
+    englishStoryContent: "On the kitchen table, a ripe pineapple caught everyone’s attention. Its golden color promised a delicious taste. When it was cut, its aroma filled the room. Everyone enjoyed its freshness during dessert."
+},
+    
+    {
+    emoji: "🫐",
+    word: "prune",
+    ipa: "/pʁyn/",
+    image: "prune.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">prune</span> est mûre et juteuse.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">plum</span> is ripe and juicy.',
+
+    mainStoryTitle: "La Prune du Jardin",
+    mainStoryContent: "Dans le jardin, une prune violette pendait doucement à la branche. Le soleil réchauffait sa peau lisse et brillante. Quand elle fut cueillie, son jus sucré coula légèrement. C’était un fruit simple, mais très apprécié.",
+    englishStoryTitle: "The Garden Plum",
+    englishStoryContent: "In the garden, a purple plum hung gently from the branch. The sun warmed its smooth and shiny skin. When it was picked, sweet juice slowly flowed out. It was a simple fruit, but very appreciated."
+},
+    
+    {
+    emoji: "🍓",
+    word: "fraise",
+    ipa: "/fʁɛz/",
+    image: "fraise.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">fraise</span> est rouge et délicieuse.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">strawberry</span> is red and delicious.',
+
+    mainStoryTitle: "La Fraise du Printemps",
+    mainStoryContent: "Dans le champ, une fraise brillante poussait sous le soleil doux. Sa couleur rouge attirait immédiatement le regard. Quand quelqu’un la goûta, sa saveur sucrée remplit la bouche. Ce petit fruit apportait beaucoup de plaisir.",
+    englishStoryTitle: "The Spring Strawberry",
+    englishStoryContent: "In the field, a bright strawberry grew under the gentle sun. Its red color immediately caught the eye. When someone tasted it, its sweet flavor filled the mouth. This small fruit brought a lot of joy."
+},
+    
+    {
+    emoji: "🍉",
+    word: "pastèque",
+    ipa: "/pastɛk/",
+    image: "pasteque.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">pastèque</span> est fraîche et rafraîchissante.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">watermelon</span> is fresh and refreshing.',
+
+    mainStoryTitle: "La Pastèque d’Été",
+    mainStoryContent: "Sur la table pendant une chaude journée d’été, une grande pastèque attendait d’être coupée. Quand elle fut ouverte, son intérieur rouge vif apparut. Tout le monde se servit une tranche bien fraîche. La pastèque apportait fraîcheur et sourire à chaque bouchée.",
+    englishStoryTitle: "The Summer Watermelon",
+    englishStoryContent: "On the table during a hot summer day, a big watermelon waited to be cut. When it was opened, its bright red inside appeared. Everyone took a cool slice. The watermelon brought freshness and smiles with every bite."
+},
+    
+    {
+    emoji: "🍑",
+    word: "pêche",
+    ipa: "/pɛʃ/",
+    image: "peche.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">pêche</span> est douce au toucher et très savoureuse.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">peach</span> feels soft and tastes very good.',
+
+    mainStoryTitle: "La Pêche d’Été",
+    mainStoryContent: "Sur l’arbre, une pêche mûrissait lentement sous le soleil. Sa peau orangée annonçait un fruit sucré et juteux. Quand elle fut cueillie, son parfum se répandit dans l’air. Chacun attendait avec plaisir le moment de la goûter.",
+    englishStoryTitle: "The Summer Peach",
+    englishStoryContent: "On the tree, a peach ripened slowly under the sun. Its orange skin promised a sweet and juicy fruit. When it was picked, its fragrance filled the air. Everyone looked forward to tasting it."
+},
+    
+    {
+    emoji: "🍐",
+    word: "poire",
+    ipa: "/pwaʁ/",
+    image: "poire.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">poire</span> est mûre et pleine de douceur.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">pear</span> is ripe and full of sweetness.',
+
+    mainStoryTitle: "La Poire du Verger",
+    mainStoryContent: "Dans le verger, une poire verte pendait à une branche solide. Le vent léger faisait bouger les feuilles autour d’elle. Lorsqu’elle fut cueillie, son goût sucré surprit tout le monde. C’était un fruit simple mais très apprécié.",
+    englishStoryTitle: "The Orchard Pear",
+    englishStoryContent: "In the orchard, a green pear hung from a strong branch. A light wind moved the leaves around it. When it was picked, its sweet taste surprised everyone. It was a simple but much-loved fruit."
+},
+    
+    {
+    emoji: "🍇",
+    word: "raisins",
+    ipa: "/ʁɛzɛ̃/",
+    image: "raisins.png",
+    sentence: 'Les <span style="color:#00ACFF; font-weight:bold">raisins</span> sont sucrés et juteux.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">grapes</span> are sweet and juicy.',
+
+    mainStoryTitle: "La Grappes de Raisins",
+    mainStoryContent: "Dans le vignoble, une grappe de raisins mûrs brillait sous le soleil. Chaque grain semblait prêt à être dégusté. Quand les raisins furent cueillis, leur jus sucré ravit tout le monde. Ce fruit apportait fraîcheur et plaisir pendant la journée.",
+    englishStoryTitle: "The Bunch of Grapes",
+    englishStoryContent: "In the vineyard, a bunch of ripe grapes shone under the sun. Each grape looked ready to be eaten. When the grapes were picked, their sweet juice delighted everyone. This fruit brought freshness and pleasure during the day."
+},
+    
+    {
+    emoji: "🍋",
+    word: "citron",
+    ipa: "/sitʁɔ̃/",
+    image: "citron.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">citron</span> a un goût acide et rafraîchissant.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">lemon</span> has a sour and refreshing taste.',
+
+    mainStoryTitle: "Le Citron Frais",
+    mainStoryContent: "Sur la table de la cuisine, un citron jaune brillait sous la lumière. Son parfum frais se répandait dans la pièce. Quand il fut pressé, quelques gouttes tombèrent dans un verre d’eau. Cette boisson apporta une sensation de fraîcheur immédiate.",
+    englishStoryTitle: "The Fresh Lemon",
+    englishStoryContent: "On the kitchen table, a yellow lemon shone under the light. Its fresh scent spread through the room. When it was squeezed, a few drops fell into a glass of water. The drink brought an immediate feeling of freshness."
+},
+    
+    {
+    emoji: "🍋‍🟩",
+    word: "citron vert",
+    ipa: "/sitʁɔ̃ vɛʁ/",
+    image: "citron_vert.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">citron vert</span> apporte une saveur vive aux boissons.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">lime</span> adds a sharp flavor to drinks.',
+
+    mainStoryTitle: "Le Citron Vert Frais",
+    mainStoryContent: "Dans la cuisine, un citron vert reposait près des verres. Sa couleur verte donnait envie de préparer une boisson fraîche. Quand il fut coupé, son parfum vif se répandit dans l’air. Quelques gouttes suffirent pour transformer la boisson.",
+    englishStoryTitle: "The Fresh Lime",
+    englishStoryContent: "In the kitchen, a lime rested near the glasses. Its green color made everyone want to prepare a cool drink. When it was cut, its sharp scent filled the air. A few drops were enough to transform the drink."
+},
+    
+    {
+    emoji: "🍊",
+    word: "mandarine",
+    ipa: "/mɑ̃daʁin/",
+    image: "mandarine.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">mandarine</span> est facile à éplucher et très parfumée.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">tangerine</span> is easy to peel and very fragrant.',
+
+    mainStoryTitle: "La Mandarine d’Hiver",
+    mainStoryContent: "Sur la table, une mandarine brillante attendait d’être mangée. Sa peau se retirait facilement entre les doigts. Son parfum sucré remplissait la pièce dès qu’elle était ouverte. Ce petit fruit apportait de la joie pendant les journées fraîches.",
+    englishStoryTitle: "The Winter Tangerine",
+    englishStoryContent: "On the table, a bright tangerine waited to be eaten. Its peel came off easily in the hands. A sweet fragrance filled the room as soon as it was opened. This small fruit brought joy during cool days."
+},
+    
+    {
+    emoji: "🍒",
+    word: "cerises",
+    ipa: "/səʁiz/",
+    image: "cerises.png",
+    sentence: 'Les <span style="color:#00ACFF; font-weight:bold">cerises</span> sont rouges et sucrées.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">cherries</span> are red and sweet.',
+
+    mainStoryTitle: "Les Cerises du Jardin",
+    mainStoryContent: "Dans le verger, des cerises brillantes pendaient aux branches des arbres. Les enfants s’approchaient avec précaution pour les cueillir. Chaque fruit était juteux et sucré. Tout le monde savourait ces petites merveilles avec plaisir.",
+    englishStoryTitle: "The Garden Cherries",
+    englishStoryContent: "In the orchard, shiny cherries hung from the tree branches. Children approached carefully to pick them. Each fruit was juicy and sweet. Everyone enjoyed these little treats with delight."
+},
+    
+    {
+    emoji: "🍎",
+    word: "fruit",
+    ipa: "/fʁɥi/",
+    image: "fruit.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">fruit</span> est sain et nutritif.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">fruit</span> is healthy and nutritious.',
+
+    mainStoryTitle: "Les Fruits Frais",
+    mainStoryContent: "Sur la table, différents fruits colorés étaient disposés soigneusement. Les pommes, les poires et les oranges attiraient le regard. Chaque fruit offrait une saveur unique et rafraîchissante. Les enfants et les adultes en prenaient avec plaisir pour leurs collations.",
+    englishStoryTitle: "Fresh Fruits",
+    englishStoryContent: "On the table, various colorful fruits were arranged carefully. Apples, pears, and oranges caught the eye. Each fruit offered a unique and refreshing taste. Children and adults happily took some for their snacks."
+},
+    
+    {
+    emoji: "🧃",
+    word: "jus de fruit",
+    ipa: "/ʒy də fʁɥi/",
+    image: "jus_de_fruit.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">jus de fruit</span> est frais et délicieux.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">fruit juice</span> is fresh and delicious.',
+
+    mainStoryTitle: "Le Verre de Jus de Fruit",
+    mainStoryContent: "Sur la table, un verre de jus de fruit coloré attendait d’être bu. Les enfants regardaient la boisson avec curiosité et impatience. Chaque gorgée était sucrée et rafraîchissante. Le jus de fruit apportait une sensation de fraîcheur pendant l’après-midi chaud.",
+    englishStoryTitle: "The Glass of Fruit Juice",
+    englishStoryContent: "On the table, a glass of colorful fruit juice waited to be drunk. The children watched the drink with curiosity and impatience. Each sip was sweet and refreshing. The fruit juice brought a sense of coolness during the hot afternoon."
+},
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
