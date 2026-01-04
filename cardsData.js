@@ -634,6 +634,293 @@
 },
     
     
+        {
+    emoji: "🍽️",
+    word: "table",
+    ipa: "/tabl/",
+    image: "table.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">table</span> est placée au centre de la pièce.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">table</span> is placed in the center of the room.',
+
+    mainStoryTitle: "La Table Familiale",
+    mainStoryContent: "Au milieu de la salle, une grande table en bois rassemblait toute la famille. Les plats étaient posés dessus avec soin avant le repas. Les enfants s’asseyaient autour en discutant joyeusement. La table devenait chaque jour un lieu de partage et de convivialité.",
+    englishStoryTitle: "The Family Table",
+    englishStoryContent: "In the middle of the room, a large wooden table brought the whole family together. Dishes were carefully placed on it before the meal. The children sat around it, chatting happily. The table became a place of sharing and togetherness every day."
+},
+    
+    
+    {
+    emoji: "🌬️",
+    word: "ventilateur",
+    ipa: "/vɑ̃tilatœʁ/",
+    image: "ventilateur.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">ventilateur</span> rafraîchit la pièce pendant la chaleur.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">fan</span> cools the room during the heat.',
+
+    mainStoryTitle: "L’Air Frais",
+    mainStoryContent: "Dans la chambre, le ventilateur tournait doucement. L’air frais circulait et rendait l’atmosphère plus agréable. Les rideaux bougeaient légèrement avec le souffle. Grâce au ventilateur, la chaleur devenait plus supportable.",
+    englishStoryTitle: "Fresh Air",
+    englishStoryContent: "In the room, the fan spun gently. Cool air moved around and made the atmosphere more comfortable. The curtains moved slightly with the breeze. Thanks to the fan, the heat became easier to handle."
+},
+    
+    
+    {
+    emoji: "🛋️",
+    word: "canapé",
+    ipa: "/kanape/",
+    image: "canape.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">canapé</span> est confortable et accueillant.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">couch</span> is comfortable and welcoming.',
+
+    mainStoryTitle: "Le Canapé du Salon",
+    mainStoryContent: "Dans le salon, un grand canapé était placé près de la fenêtre. Les coussins moelleux donnaient envie de s’y asseoir et de se détendre. La famille s’y retrouvait pour discuter ou regarder la télévision. Le canapé devenait rapidement l’endroit préféré de tous.",
+    englishStoryTitle: "The Living Room Couch",
+    englishStoryContent: "In the living room, a large couch was placed near the window. The soft cushions made everyone want to sit and relax. The family gathered there to talk or watch television. The couch quickly became everyone’s favorite spot."
+},
+    
+    {
+    emoji: "🔳",
+    word: "tableau noir",
+    ipa: "/tablo nwaʁ/",
+    image: "tableau_noir.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">tableau noir</span> est rempli d’exemples écrits à la craie.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">blackboard</span> is filled with examples written in chalk.',
+
+    mainStoryTitle: "Le Tableau Noir de la Classe",
+    mainStoryContent: "Dans la salle de classe, le tableau noir occupait tout le mur principal. Le professeur écrivait des mots et des dessins pour expliquer la leçon. Les élèves regardaient attentivement et copiaient dans leurs cahiers. Le tableau noir aidait tout le monde à mieux comprendre.",
+    englishStoryTitle: "The Classroom Blackboard",
+    englishStoryContent: "In the classroom, the blackboard covered the main wall. The teacher wrote words and drawings to explain the lesson. Students watched carefully and copied into their notebooks. The blackboard helped everyone understand better."
+},
+    
+    {
+    emoji: "🪑",
+    word: "chaise",
+    ipa: "/ʃɛz/",
+    image: "chaise.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">chaise</span> est placée devant le bureau.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">chair</span> is placed in front of the desk.',
+
+    mainStoryTitle: "La Chaise de la Classe",
+    mainStoryContent: "Dans la salle de classe, chaque élève avait une chaise pour s’asseoir confortablement. Certaines chaises faisaient un peu de bruit quand on bougeait. Malgré cela, elles permettaient aux élèves de rester concentrés pendant la leçon.",
+    englishStoryTitle: "The Classroom Chair",
+    englishStoryContent: "In the classroom, each student had a chair to sit on comfortably. Some chairs made a little noise when moving. Still, they helped students stay focused during the lesson."
+},
+    
+    {
+    emoji: "📚️",
+    word: "bibliothèque",
+    ipa: "/biblijɔtɛk/",
+    image: "bibliotheque.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">bibliothèque</span> contient beaucoup de livres intéressants.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">bookcase</span> contains many interesting books.',
+
+    mainStoryTitle: "La Bibliothèque de la Classe",
+    mainStoryContent: "Dans la classe, la bibliothèque se trouvait près du mur. Elle était remplie de livres colorés pour les élèves. Pendant le temps libre, les enfants choisissaient un livre et lisaient calmement. La bibliothèque rendait la classe plus vivante.",
+    englishStoryTitle: "The Classroom Bookcase",
+    englishStoryContent: "In the classroom, the bookcase was near the wall. It was full of colorful books for the students. During free time, children chose a book and read quietly. The bookcase made the classroom more lively."
+},
+    
+    
+    {
+    emoji: "🧱",
+    word: "mur",
+    ipa: "/myʁ/",
+    image: "mur.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">mur</span> est peint en bleu clair.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">wall</span> is painted light blue.',
+
+    mainStoryTitle: "Le Mur de la Classe",
+    mainStoryContent: "Dans la salle de classe, le mur était décoré avec des affiches colorées. Les élèves accrochaient parfois leurs dessins pour les montrer aux autres. Chaque mur racontait une histoire différente. Cela rendait la pièce plus vivante et accueillante.",
+    englishStoryTitle: "The Classroom Wall",
+    englishStoryContent: "In the classroom, the wall was decorated with colorful posters. The students sometimes hung their drawings to show to others. Each wall told a different story. This made the room more lively and welcoming."
+},
+    
+    {
+    emoji: "⏰",
+    word: "horloge",
+    ipa: "/ɔʁlɔʒ/",
+    image: "horloge.png",
+    sentence: 'L’<span style="color:#00ACFF; font-weight:bold">horloge</span> indique l’heure du début des cours.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">clock</span> shows the time when classes start.',
+
+    mainStoryTitle: "L’Horloge de la Classe",
+    mainStoryContent: "Au-dessus du tableau noir, une horloge trônait fièrement. Les élèves jetaient parfois un coup d’œil pour voir combien de temps restait avant la récréation. L’horloge aidait le professeur à gérer le temps. Chaque tic-tac rythmait la journée scolaire.",
+    englishStoryTitle: "The Classroom Clock",
+    englishStoryContent: "Above the blackboard, a clock proudly hung. Students occasionally glanced at it to see how much time remained before recess. The clock helped the teacher manage time. Every tick-tock marked the rhythm of the school day."
+},
+    
+    {
+    emoji: "📅",
+    word: "calendrier",
+    ipa: "/kalɑ̃dʁje/",
+    image: "calendrier.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">calendrier</span> montre les jours importants du mois.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">calendar</span> shows the important days of the month.',
+
+    mainStoryTitle: "Le Calendrier de la Classe",
+    mainStoryContent: "Sur le mur, un grand calendrier affichait tous les événements du mois. Les élèves regardaient souvent les dates pour se préparer aux activités. Chaque jour était marqué avec soin pour ne rien oublier. Le calendrier aidait à organiser la vie de la classe.",
+    englishStoryTitle: "The Classroom Calendar",
+    englishStoryContent: "On the wall, a large calendar displayed all the events of the month. Students often looked at the dates to prepare for activities. Each day was carefully marked to forget nothing. The calendar helped organize the classroom's life."
+},
+    
+    
+    {
+    emoji: "🛏️",
+    word: "lit",
+    ipa: "/li/",
+    image: "lit.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">lit</span> est confortable et prêt pour dormir.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">bed</span> is comfortable and ready for sleeping.',
+
+    mainStoryTitle: "Le Lit Douillet",
+    mainStoryContent: "Dans la chambre, le lit était recouvert d’une couverture douce. Les oreillers étaient bien arrangés pour accueillir le dormeur. Avant de se coucher, l’enfant lisait un petit livre. Le lit offrait un endroit sûr et confortable pour se reposer.",
+    englishStoryTitle: "The Cozy Bed",
+    englishStoryContent: "In the bedroom, the bed was covered with a soft blanket. The pillows were neatly arranged to welcome the sleeper. Before going to bed, the child read a small book. The bed provided a safe and comfortable place to rest."
+},
+    
+    {
+    emoji: "🩹",
+    word: "gomme",
+    ipa: "/ɡɔm/",
+    image: "gomme.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">gomme</span> efface les erreurs sur le papier.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">eraser</span> removes mistakes from the paper.',
+
+    mainStoryTitle: "La Gomme Magique",
+    mainStoryContent: "Sur le bureau, une petite gomme attendait d’être utilisée. Chaque fois qu’un mot était écrit par erreur, elle effaçait doucement la marque. Les enfants l’utilisaient souvent pour corriger leurs devoirs. La gomme rendait l’écriture plus propre et agréable.",
+    englishStoryTitle: "The Magic Eraser",
+    englishStoryContent: "On the desk, a small eraser waited to be used. Every time a word was written by mistake, it gently erased the mark. The children often used it to correct their homework. The eraser made writing cleaner and nicer."
+},
+    
+    {
+    emoji: "✏️",
+    word: "crayon",
+    ipa: "/kʁɛjɔ̃/",
+    image: "crayon.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">crayon</span> sert à écrire et à dessiner.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">pencil</span> is used for writing and drawing.',
+
+    mainStoryTitle: "Le Crayon de l’Écolier",
+    mainStoryContent: "Sur le bureau, un crayon bien taillé attendait d’être utilisé. L’enfant écrivait soigneusement ses mots dans son cahier. Parfois, il dessinait de petites images pour illustrer ses idées. Le crayon rendait chaque travail plus précis et amusant.",
+    englishStoryTitle: "The Student's Pencil",
+    englishStoryContent: "On the desk, a well-sharpened pencil waited to be used. The child carefully wrote words in his notebook. Sometimes, he drew small pictures to illustrate his ideas. The pencil made every task more precise and fun."
+},
+    
+    {
+    emoji: "📖",
+    word: "dictionnaire",
+    ipa: "/diksjɔnɛʁ/",
+    image: "dictionnaire.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">dictionnaire</span> aide à comprendre le sens des mots.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">dictionary</span> helps to understand the meaning of words.',
+
+    mainStoryTitle: "Le Dictionnaire de la Classe",
+    mainStoryContent: "Sur l’étagère, un dictionnaire reposait ouvert pour aider les élèves. Chaque mot pouvait être recherché facilement. Les enfants l’utilisaient pour enrichir leur vocabulaire. Le dictionnaire devenait un outil indispensable pour les leçons.",
+    englishStoryTitle: "The Classroom Dictionary",
+    englishStoryContent: "On the shelf, a dictionary lay open to help the students. Each word could be easily looked up. The children used it to expand their vocabulary. The dictionary became an essential tool for lessons."
+},
+    
+    {
+    emoji: "🪛",
+    word: "taille-crayon",
+    ipa: "/taj kʁɛjɔ̃/",
+    image: "taille-crayon.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">taille-crayon</span> aiguise les crayons pour écrire correctement.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">pencil sharpener</span> sharpens pencils for proper writing.',
+
+    mainStoryTitle: "Le Taille-Crayon Pratique",
+    mainStoryContent: "Sur le bureau, un petit taille-crayon attendait d’être utilisé. Chaque fois qu’un crayon devenait émoussé, il était affûté rapidement. Les enfants pouvaient continuer à écrire sans difficulté. Le taille-crayon facilitait le travail et gardait les crayons prêts à l’emploi.",
+    englishStoryTitle: "The Handy Pencil Sharpener",
+    englishStoryContent: "On the desk, a small pencil sharpener waited to be used. Every time a pencil became dull, it was sharpened quickly. The children could continue writing without difficulty. The sharpener made work easier and kept pencils ready to use."
+},
+    
+    {
+    emoji: "⬜️",
+    word: "tableau blanc",
+    ipa: "/tablo blɑ̃/",
+    image: "tableau_blanc.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">tableau blanc</span> est utilisé pour écrire avec des marqueurs.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">whiteboard</span> is used for writing with markers.',
+
+    mainStoryTitle: "Le Tableau Blanc de la Classe",
+    mainStoryContent: "Dans la salle de classe, le tableau blanc était fixé au mur principal. Le professeur écrivait des exemples clairs avec des marqueurs colorés. Les élèves suivaient attentivement et copiaient les informations dans leurs cahiers. Le tableau blanc permettait une meilleure compréhension des leçons.",
+    englishStoryTitle: "The Classroom Whiteboard",
+    englishStoryContent: "In the classroom, the whiteboard was fixed to the main wall. The teacher wrote clear examples with colorful markers. The students followed carefully and copied the information into their notebooks. The whiteboard allowed a better understanding of the lessons."
+},
+    
+    {
+    emoji: "💡",
+    word: "lampe",
+    ipa: "/lɑ̃p/",
+    image: "lampe.png",
+    sentence: 'La <span style="color:#00ACFF; font-weight:bold">lampe</span> éclaire bien le bureau pour étudier.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">lamp</span> lights up the desk well for studying.',
+
+    mainStoryTitle: "La Lampe de Bureau",
+    mainStoryContent: "Sur le bureau, une lampe brillante diffusait une lumière douce. L’enfant pouvait lire et écrire sans fatigue. Parfois, il ajustait l’intensité pour mieux voir les détails. La lampe rendait le travail plus agréable et confortable.",
+    englishStoryTitle: "The Desk Lamp",
+    englishStoryContent: "On the desk, a bright lamp spread a soft light. The child could read and write without strain. Sometimes, he adjusted the brightness to see the details better. The lamp made the work more pleasant and comfortable."
+},
+    
+    
+    {
+    emoji: "🏠",
+    word: "toit",
+    ipa: "/twa/",
+    image: "toit.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">toit</span> protège la maison de la pluie et du soleil.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">roof</span> protects the house from rain and sun.',
+
+    mainStoryTitle: "Le Toit de la Maison",
+    mainStoryContent: "Au-dessus de la maison, le toit était couvert de tuiles rouges. Il empêchait la pluie de pénétrer à l’intérieur et offrait de l’ombre pendant l’été. Les enfants aimaient jouer dans le jardin sous sa protection. Le toit assurait confort et sécurité à toute la famille.",
+    englishStoryTitle: "The House Roof",
+    englishStoryContent: "Above the house, the roof was covered with red tiles. It prevented rain from entering inside and offered shade during summer. The children enjoyed playing in the garden under its protection. The roof provided comfort and safety for the whole family."
+},
+    
+    
+    {
+    emoji: "📓",
+    word: "cahier",
+    ipa: "/kaje/",
+    image: "cahier.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">cahier</span> est ouvert sur le bureau prêt à écrire.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">notebook</span> is open on the desk, ready for writing.',
+
+    mainStoryTitle: "Le Cahier de l’Écolier",
+    mainStoryContent: "Sur le bureau, un cahier bien organisé attendait d’être utilisé. L’enfant écrivait ses leçons avec attention. Parfois, il ajoutait des dessins pour illustrer ses idées. Le cahier permettait de garder toutes les informations importantes en un seul endroit.",
+    englishStoryTitle: "The Student's Notebook",
+    englishStoryContent: "On the desk, a neatly organized notebook waited to be used. The child wrote his lessons carefully. Sometimes, he added drawings to illustrate his ideas. The notebook kept all important information in one place."
+},
+    
+    {
+    emoji: "📘",
+    word: "livre",
+    ipa: "/livʁ/",
+    image: "livre.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">livre</span> est posé sur la table prêt à être lu.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">book</span> is placed on the table, ready to be read.',
+
+    mainStoryTitle: "Le Livre Préféré",
+    mainStoryContent: "Sur la table, un livre captivant attendait l’enfant. Il s’assit confortablement pour commencer sa lecture. Chaque page racontait une nouvelle aventure pleine d’imagination. Le livre apportait du plaisir et enrichissait ses connaissances.",
+    englishStoryTitle: "The Favorite Book",
+    englishStoryContent: "On the table, a captivating book waited for the child. He sat comfortably to start reading. Each page told a new adventure full of imagination. The book brought joy and enriched his knowledge."
+},
+    
+    
+    {
+    emoji: "🖊️",
+    word: "stylo à encre",
+    ipa: "/stilo a ɑ̃kʁ/",
+    image: "stylo_a_encre.png",
+    sentence: 'Le <span style="color:#00ACFF; font-weight:bold">stylo à encre</span> écrit en bleu sur le cahier.',
+    englishTr: 'The <span style="color:#00ACFF; font-weight:bold">ink pen</span> writes in blue on the notebook.',
+
+    mainStoryTitle: "Le Stylo à Encre",
+    mainStoryContent: "Sur le bureau, un stylo à encre reposait à côté du cahier. L’enfant écrivait soigneusement ses phrases. Parfois, il ajoutait des dessins pour décorer les pages. Le stylo à encre rendait l’écriture élégante et fluide.",
+    englishStoryTitle: "The Ink Pen",
+    englishStoryContent: "On the desk, an ink pen rested next to the notebook. The child wrote his sentences carefully. Sometimes, he added drawings to decorate the pages. The ink pen made writing elegant and smooth."
+},
+    
     
     
     
