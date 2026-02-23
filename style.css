@@ -317,7 +317,7 @@ body {
 
 .card-emoji {
     font-size: 34px;
-    filter: drop-shadow(0 0 4px var(--emoji-shadow));
+    filter: drop-shadow(0 0 4px var(--text-main));
 }
 
 .card-word-wrap {
@@ -342,6 +342,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     margin-bottom: 6px;
+    
     color: var(--primary);
     text-align: center;
 }
@@ -352,8 +353,10 @@ body {
 .card-image {
     width: 100%;
     height: 140px;
+    border: 2px solid var(--text-main);
     border-radius: 14px;
-    background: var(--card-image-bg);
+    
+    background: var(--card-bg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -363,6 +366,7 @@ body {
 
 .card-image img {
     max-width: 100%;
+    filter: drop-shadow(0 0 4px var(--text-main));
     max-height: 100%;
     object-fit: contain;
     padding: 8px;
@@ -371,6 +375,7 @@ body {
 .emoji-fallback {
     font-size: 90px;
     width: 100%;
+    filter: drop-shadow(0 0 4px var(--text-main));
     height: 100%;
     display: flex;
     align-items: center;
@@ -406,9 +411,42 @@ body {
     margin-bottom: 6px;
 }
 
-.example-content {
+.main-example-title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--example-title);
+    margin-bottom: 6px;
+}
+.main-example-content {
     font-size: 0.95rem;
     line-height: 1.5;
+    
+    color: var(--text-main);
+}
+.en-example-title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--example-title);
+    margin-bottom: 6px;
+}
+.en-example-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    
+    color: var(--text-main);
+}
+.ar-example-title {
+    font-weight: bold;
+    font-size: 1rem;
+    direction: rtl;
+    color: var(--example-title);
+    margin-bottom: 6px;
+}
+.ar-example-content {
+    font-size: 0.95rem;
+    direction: rtl;
+    line-height: 1.5;
+    
     color: var(--text-main);
 }
 
@@ -455,6 +493,54 @@ body {
 
 .card-story-container .story-content {
     font-size: 0.95rem;
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+
+
+
+.main-story-title {
+    font-weight: bold;
+    
+    
+    color: var(--story-title);
+    margin-bottom: 6px;
+}
+.main-story-content {
+    font-size: 0.95rem;
+    
+    
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+.en-story-title {
+    font-weight: bold;
+    
+    
+    color: var(--story-title);
+    margin-bottom: 6px;
+}
+.en-story-content {
+    font-size: 0.95rem;
+    
+    
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+.ar-story-title {
+    font-weight: bold;
+    
+    direction: rtl;
+    color: var(--story-title);
+    margin-bottom: 6px;
+}
+.ar-story-content {
+    font-size: 0.95rem;
+    
+    direction: rtl;
     color: var(--text-main);
     line-height: 1.5;
 }
@@ -588,4 +674,4 @@ body {
     .card-word {
         font-size: 16px;
     }
-   }
+}
