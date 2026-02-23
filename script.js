@@ -138,7 +138,7 @@ function createCard(card, index, removable = false) { // added index
     mainExampleTitle.textContent = "French Example:";
 
     const mainExampleContent = document.createElement("div");
-    mainExampleContent.className = "example-content";
+    mainExampleContent.className = "main-example-content";
     mainExampleContent.innerHTML = card.sentence && card.sentence.trim() ? card.sentence : "No example available.";
 
     mainExampleDiv.append(mainExampleTitle, mainExampleContent);
@@ -152,14 +152,47 @@ function createCard(card, index, removable = false) { // added index
     englishExampleTitle.textContent = "English Example:";
 
     const englishExampleContent = document.createElement("div");
-    englishExampleContent.className = "example-content";
+    englishExampleContent.className = "en-example-content";
     englishExampleContent.innerHTML = card.englishTr && card.englishTr.trim() ? card.englishTr : "No example available.";
 
     englishExampleDiv.append(englishExampleTitle, englishExampleContent);
+    
+    //wait
+    
+    
+        // Arabic Example
+    const arabicExampleDiv = document.createElement("div");
+    arabicExampleDiv.className = "english-example";
+
+    const arabicExampleTitle = document.createElement("div");
+    arabicExampleTitle.className = "ar-example-title";
+    arabicExampleTitle.textContent = "مثال عربي:";
+
+    const arabicExampleContent = document.createElement("div");
+    arabicExampleContent.className = "ar-example-content";
+    arabicExampleContent.innerHTML = card.arabicTr && card.arabicTr.trim() ? card.arabicTr : "لا يوجد مثال متاح.";
+
+    arabicExampleDiv.append(arabicExampleTitle, arabicExampleContent);
+    
+    
+    
+    
+    //wait
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     // Append below examples title
     cardDiv.append(mainExampleDiv);
     cardDiv.append(englishExampleDiv);
+    cardDiv.append(arabicExampleDiv);
 
     // =========================
     // STORY TOGGLE BUTTON
@@ -184,8 +217,8 @@ function createCard(card, index, removable = false) { // added index
         : "Main Story:";
 
     const mainContent = document.createElement("div");
-    mainContent.className = "story-content";
-    mainContent.textContent = card.mainStoryContent && card.mainStoryContent.trim() 
+    mainContent.className = "main-story-content";
+    mainContent.innerHTML = card.mainStoryContent && card.mainStoryContent.trim() 
         ? card.mainStoryContent 
         : "No story available.";
 
@@ -196,23 +229,50 @@ function createCard(card, index, removable = false) { // added index
     englishStoryDiv.className = "english-story";
 
     const englishTitle = document.createElement("div");
-    englishTitle.className = "story-title";
+    englishTitle.className = "en-story-title";
     englishTitle.textContent = card.englishStoryTitle && card.englishStoryTitle.trim() 
         ? card.englishStoryTitle 
         : "English Story:";
 
     const englishContent = document.createElement("div");
-    englishContent.className = "story-content";
-    englishContent.textContent = card.englishStoryContent && card.englishStoryContent.trim() 
+    englishContent.className = "en-story-content";
+    englishContent.innerHTML = card.englishStoryContent && card.englishStoryContent.trim() 
         ? card.englishStoryContent 
         : "No story available.";
 
     englishStoryDiv.append(englishTitle, englishContent);
 
-    const spacePlace=document.createElement('br');
+    const spacePlace1=document.createElement('br');
+    
+    
+    //wait
+    
+    // Arabic Story
+    const arabicStoryDiv = document.createElement("div");
+    arabicStoryDiv.className = "english-story";
+
+    const arabicTitle = document.createElement("div");
+    arabicTitle.className = "ar-story-title";
+    arabicTitle.textContent = card.arabicStoryTitle && card.arabicStoryTitle.trim() 
+        ? card.arabicStoryTitle 
+        : "قصة عربية:";
+
+    const arabicContent = document.createElement("div");
+    arabicContent.className = "ar-story-content";
+    arabicContent.innerHTML = card.arabicStoryContent && card.arabicStoryContent.trim() 
+        ? card.arabicStoryContent 
+        : "لا توجد قصة متاحة.";
+
+    arabicStoryDiv.append(arabicTitle, arabicContent);
+    
+    
+    //wait
+    
+    const spacePlace2=document.createElement('br');
+    
 
     // Append main and English stories to container
-    storyContainer.append(mainStoryDiv, spacePlace, englishStoryDiv);
+    storyContainer.append(mainStoryDiv, spacePlace1, englishStoryDiv,spacePlace2,arabicStoryDiv);
 
     // Toggle button click
     storyButton.addEventListener("click", () => {
