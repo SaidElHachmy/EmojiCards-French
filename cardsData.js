@@ -785,7 +785,244 @@
     arabicStoryContent: "في الوعاء الخزفي على الطاولة، توجد عدة <span style=\"color:#00ACFF; font-weight:bold\">كمثرى</span> خضراء وصفراء. بجانبها لوح تقطيع صغير ومنشفة مطوية. أشعة الشمس تبرز ملمسها الناعم وطزاجتها."
 },
     
+   
+    {
+    emoji: "🍇",
+    word: "raisins",
+    ipa: "/ʁɛ. zɛ̃/",
+    image: "raisins.png",
+
+    sentence: 'Le bol est plein de <span style=\"color:#00ACFF; font-weight:bold\">raisins</span>.',
+    englishTr: 'The bowl is full of <span style=\"color:#00ACFF; font-weight:bold\">grapes</span>.',
+    arabicTr: 'الوعاء مليء بـ <span style=\"color:#00ACFF; font-weight:bold\">العنب</span>.',
+
+    mainStoryTitle: "Le Bol de Raisins",
+    mainStoryContent: "Un grand bol en céramique repose sur une table en bois, rempli de <span style=\"color:#00ACFF; font-weight:bold\">raisins</span> violets et verts bien frais. Quelques fruits sont éparpillés à côté du bol. La lumière du soleil traverse la fenêtre et crée des reflets brillants sur leur surface lisse ainsi que des ombres marquées sur la table.",
+
+    englishStoryTitle: "The Bowl of Grapes",
+    englishStoryContent: "A large ceramic bowl sits on a wooden table, filled with fresh purple and green <span style=\"color:#00ACFF; font-weight:bold\">grapes</span>. A few grapes are scattered beside the bowl. Sunlight shines through a nearby window, creating bright highlights on the smooth fruit and strong shadows on the surface.",
+
+    arabicStoryTitle: "وعاء العنب",
+    arabicStoryContent: "وعاء خزفي كبير موضوع على طاولة خشبية وممتلئ بـ <span style=\"color:#00ACFF; font-weight:bold\">العنب</span> البنفسجي والأخضر الطازج. بعض الحبات متناثرة بجانب الوعاء. أشعة الشمس تدخل من النافذة وتُظهر لمعان الثمار وظلالًا واضحة على الطاولة."
+},
     
+    {
+    emoji: "🍋",
+    word: "citron",
+    ipa: "/si. tʁɔ̃/",
+    image: "citron.png",
+
+    sentence: 'L\'assiette est pleine de <span style=\"color:#00ACFF; font-weight:bold\">citrons</span>.',
+    englishTr: 'The plate is full of <span style=\"color:#00ACFF; font-weight:bold\">lemons</span>.',
+    arabicTr: 'الطبق مليء بـ <span style=\"color:#00ACFF; font-weight:bold\">الليمون</span>.',
+
+    mainStoryTitle: "L'Assiette de Citrons",
+    mainStoryContent: "Une assiette blanche repose sur une table en bois, remplie de <span style=\"color:#00ACFF; font-weight:bold\">citrons</span> jaunes éclatants. Un citron est coupé en deux, révélant son intérieur juteux. Un petit couteau est posé à côté. La lumière du soleil crée des reflets brillants sur la peau lisse et des ombres nettes sur la table.",
+
+    englishStoryTitle: "The Plate of Lemons",
+    englishStoryContent: "A white plate sits on a wooden table, filled with bright yellow <span style=\"color:#00ACFF; font-weight:bold\">lemons</span>. One lemon is cut in half, showing its juicy inside. A small knife rests beside the plate. Sunlight creates strong highlights and sharp shadows, emphasizing freshness and brightness.",
+
+    arabicStoryTitle: "طبق الليمون",
+    arabicStoryContent: "طبق أبيض موضوع على طاولة خشبية وممتلئ بـ <span style=\"color:#00ACFF; font-weight:bold\">الليمون</span> الأصفر اللامع. ليمونة مقطوعة إلى نصفين تُظهر داخلها العصيري. سكين صغير موضوع بجانب الطبق، وأشعة الشمس تبرز اللمعان والظلال بوضوح."
+},
+    
+    
+    {
+    emoji: "🟢",
+    word: "citron vert",
+    ipa: "/si. tʁɔ̃ vɛʁ/",
+    image: "citron_vert.png",
+
+    sentence: 'Le bol est plein de <span style=\"color:#00ACFF; font-weight:bold\">citrons verts</span>.',
+    englishTr: 'The bowl is full of <span style=\"color:#00ACFF; font-weight:bold\">limes</span>.',
+    arabicTr: 'الوعاء مليء بـ <span style=\"color:#00ACFF; font-weight:bold\">الليمون الأخضر</span>.',
+
+    mainStoryTitle: "Le Bol de Citrons Verts",
+    mainStoryContent: "Un bol en céramique repose sur une table en bois, rempli de <span style=\"color:#00ACFF; font-weight:bold\">citrons verts</span> frais et brillants. L’un d’eux est coupé en deux, révélant son intérieur juteux et lumineux. Un petit couteau est posé à côté du bol. La lumière venant de la fenêtre crée des reflets éclatants sur la peau verte et des ombres profondes sur la table.",
+
+    englishStoryTitle: "The Bowl of Limes",
+    englishStoryContent: "A ceramic bowl sits on a wooden table, filled with fresh green <span style=\"color:#00ACFF; font-weight:bold\">limes</span>. One lime is cut in half, showing its bright juicy inside. A small knife lies next to the bowl. Light from a nearby window creates strong highlights and deep shadows, emphasizing freshness and energy.",
+
+    arabicStoryTitle: "وعاء الليمون الأخضر",
+    arabicStoryContent: "وعاء خزفي على طاولة خشبية مليء بـ <span style=\"color:#00ACFF; font-weight:bold\">الليمون الأخضر</span> الطازج واللامع. واحدة منها مقطوعة إلى نصفين وتُظهر داخلها العصيري المشرق. سكين صغير بجانب الوعاء، والضوء القادم من النافذة يخلق لمعانًا قويًا وظلالًا عميقة."
+},
+    
+    
+    {
+    emoji: "🍊",
+    word: "mandarine",
+    ipa: "/mɑ̃. da. ʁin/",
+    image: "mandarine.png",
+
+    sentence: 'Le panier est plein de <span style=\"color:#00ACFF; font-weight:bold\">mandarines</span>.',
+    englishTr: 'The basket is full of <span style=\"color:#00ACFF; font-weight:bold\">tangerines</span>.',
+    arabicTr: 'السلة مليئة بـ <span style=\"color:#00ACFF; font-weight:bold\">اليوسفي</span>.',
+
+    mainStoryTitle: "Le Panier de Mandarines",
+    mainStoryContent: "Un panier tressé repose sur une table en bois, rempli de <span style=\"color:#00ACFF; font-weight:bold\">mandarines</span> orange vif. L’une d’elles est épluchée, et ses quartiers frais sont placés soigneusement à côté. La lumière douce du soleil crée des reflets brillants sur la peau lisse et des ombres profondes sur la table.",
+
+    englishStoryTitle: "The Basket of Tangerines",
+    englishStoryContent: "A woven basket sits on a wooden table, filled with bright orange <span style=\"color:#00ACFF; font-weight:bold\">tangerines</span>. One tangerine is peeled, and the fresh slices are placed neatly beside it. Soft sunlight creates strong highlights and deep shadows, emphasizing freshness and brightness.",
+
+    arabicStoryTitle: "سلة اليوسفي",
+    arabicStoryContent: "سلة منسوجة موضوعة على طاولة خشبية وممتلئة بـ <span style=\"color:#00ACFF; font-weight:bold\">اليوسفي</span> البرتقالي اللامع. إحداها مقشرة وشرائحها الطازجة موضوعة بجانبها بعناية. ضوء الشمس الناعم يبرز اللمعان ويصنع ظلالًا عميقة."
+},
+    
+    
+    {
+    emoji: "🍒",
+    word: "cerises",
+    ipa: "/sə. ʁiz/",
+    image: "cerises.png",
+
+    sentence: 'Le bol est plein de <span style=\"color:#00ACFF; font-weight:bold\">cerises</span>.',
+    englishTr: 'The bowl is full of <span style=\"color:#00ACFF; font-weight:bold\">cherries</span>.',
+    arabicTr: 'الوعاء مليء بـ <span style=\"color:#00ACFF; font-weight:bold\">الكرز</span>.',
+
+    mainStoryTitle: "Le Bol de Cerises",
+    mainStoryContent: "Un bol en verre repose sur une table en bois, rempli de <span style=\"color:#00ACFF; font-weight:bold\">cerises</span> rouges vives avec leurs tiges vertes. Quelques cerises sont disposées à côté du bol. La lumière du soleil crée des reflets brillants et des ombres profondes sur la table, soulignant la fraîcheur et la douceur.",
+
+    englishStoryTitle: "The Bowl of Cherries",
+    englishStoryContent: "A glass bowl sits on a wooden table, filled with bright red <span style=\"color:#00ACFF; font-weight:bold\">cherries</span> with green stems. A few cherries are placed beside the bowl. Sunlight creates strong highlights and deep shadows, emphasizing freshness and sweetness.",
+
+    arabicStoryTitle: "وعاء الكرز",
+    arabicStoryContent: "وعاء زجاجي موضوع على طاولة خشبية ومليء بـ <span style=\"color:#00ACFF; font-weight:bold\">الكرز</span> الأحمر الزاهي مع السيقان الخضراء. بعض الكرز موضوع بجانبه. ضوء الشمس يخلق لمعانًا قويًا وظلالًا عميقة، مما يبرز الطزاجة والحلاوة."
+},
+    
+    {
+    emoji: "🍏",
+    word: "fruits",
+    ipa: "/fʁɥi/",
+    image: "fruits.png",
+
+    sentence: 'Le panier est plein de <span style=\"color:#00ACFF; font-weight:bold\">fruits</span>.',
+    englishTr: 'The basket is full of <span style=\"color:#00ACFF; font-weight:bold\">fruit</span>.',
+    arabicTr: 'السلة مليئة بـ <span style=\"color:#00ACFF; font-weight:bold\">الفواكه</span>.',
+
+    mainStoryTitle: "Le Panier de Fruits",
+    mainStoryContent: "Un panier tissé repose sur le comptoir en bois, rempli de <span style=\"color:#00ACFF; font-weight:bold\">fruits</span> colorés : pommes, bananes, oranges, raisins et poires. La lumière du soleil provenant de la fenêtre proche crée des reflets éclatants et des ombres profondes, mettant en valeur la fraîcheur et la variété des fruits.",
+
+    englishStoryTitle: "The Basket of Fruit",
+    englishStoryContent: "A woven basket sits on a wooden countertop, filled with colorful <span style=\"color:#00ACFF; font-weight:bold\">fruits</span>: apples, bananas, oranges, grapes, and pears. Sunlight streams through a nearby window, casting bright highlights and deep shadows, emphasizing freshness and variety.",
+
+    arabicStoryTitle: "سلة الفواكه",
+    arabicStoryContent: "سلة منسوجة موضوعة على سطح خشبي، مليئة بـ <span style=\"color:#00ACFF; font-weight:bold\">الفواكه</span> الملونة: التفاح، الموز، البرتقال، العنب، والكمثرى. أشعة الشمس من النافذة القريبة تخلق لمعانًا قويًا وظلالًا عميقة، مما يبرز الطزاجة والتنوع."
+},
+    
+    {
+    emoji: "🧃",
+    word: "jus de fruits",
+    ipa: "/ʒy də fʁɥi/",
+    image: "jus_de_fruits.png",
+
+    sentence: 'Le verre est plein de <span style=\"color:#00ACFF; font-weight:bold\">jus de fruits</span>.',
+    englishTr: 'The glass is full of <span style=\"color:#00ACFF; font-weight:bold\">fruit juice</span>.',
+    arabicTr: 'الكأس مليء بـ <span style=\"color:#00ACFF; font-weight:bold\">عصير الفواكه</span>.',
+
+    mainStoryTitle: "Le Verre de Jus de Fruits",
+    mainStoryContent: "Un verre transparent repose sur un comptoir en bois, rempli de <span style=\"color:#00ACFF; font-weight:bold\">jus de fruits</span> orange vif. Un petit pichet contenant plus de jus est posé à côté, et une serviette pliée est soigneusement placée à proximité. La lumière du soleil traverse la fenêtre proche, créant des reflets éclatants et des ombres profondes, mettant en valeur la fraîcheur et la vivacité du jus.",
+
+    englishStoryTitle: "The Glass of Fruit Juice",
+    englishStoryContent: "A clear glass sits on a wooden countertop, filled with bright orange <span style=\"color:#00ACFF; font-weight:bold\">fruit juice</span>. A small pitcher with more juice rests beside it, and a folded napkin lies neatly nearby. Sunlight streams through a nearby window, creating strong highlights and deep shadows, emphasizing freshness and vibrancy.",
+
+    arabicStoryTitle: "كأس عصير الفواكه",
+    arabicStoryContent: "كأس شفاف على سطح خشبي، مليء بـ <span style=\"color:#00ACFF; font-weight:bold\">عصير الفواكه</span> البرتقالي الزاهي. إبريق صغير يحتوي على المزيد من العصير موضوع بجانبه، ومنديل مطوي موضوع بعناية بالقرب منه. أشعة الشمس من النافذة القريبة تخلق لمعانًا قويًا وظلالًا عميقة، مما يبرز الطزاجة والحيوية."
+},
+    
+    {
+    emoji: "🪑",
+    word: "table",
+    ipa: "/tabl/",
+    image: "table.png",
+
+    sentence: 'La <span style=\"color:#00ACFF; font-weight:bold\">table</span> est au centre de la pièce.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">table</span> is in the center of the room.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">طاولة</span> في وسط الغرفة.',
+
+    mainStoryTitle: "La Table au Centre",
+    mainStoryContent: "Une solide <span style=\"color:#00ACFF; font-weight:bold\">table</span> en bois repose au centre de la salle à manger, polie et propre, avec un petit vase de fleurs sur le dessus. Les chaises sont disposées soigneusement autour, et la lumière du soleil traverse la fenêtre, créant des ombres douces et mettant en valeur la structure et la présence de la table.",
+
+    englishStoryTitle: "The Table in the Center",
+    englishStoryContent: "A sturdy wooden <span style=\"color:#00ACFF; font-weight:bold\">table</span> sits in the center of the dining room, polished and clean, with a small vase of flowers on top. Chairs are neatly arranged around it, and sunlight streams through a window, casting soft shadows across the floor, emphasizing structure and presence.",
+
+    arabicStoryTitle: "الطاولة في الوسط",
+    arabicStoryContent: "طاولة خشبية قوية في وسط غرفة الطعام، مصقولة ونظيفة، وعلى سطحها مزهرية صغيرة. الكراسي مرتبة بعناية حولها، وأشعة الشمس تمر عبر النافذة، مخلقة ظلالًا ناعمة وتبرز هيكل الطاولة وحضورها."
+},
+    
+    {
+    emoji: "🌀",
+    word: "ventilateur",
+    ipa: "/vɑ̃.ti.la.tœʁ/",
+    image: "ventilateur.png",
+
+    sentence: 'Le <span style=\"color:#00ACFF; font-weight:bold\">ventilateur</span> est sur la table.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">fan</span> is on the table.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">مروحة</span> على الطاولة.',
+
+    mainStoryTitle: "Le Ventilateur sur la Table",
+    mainStoryContent: "Un petit <span style=\"color:#00ACFF; font-weight:bold\">ventilateur</span> électrique repose sur une table en bois, ses pales brillantes et immobiles. Un carnet plié et un stylo sont posés à côté. La lumière du soleil traverse la fenêtre, créant des reflets nets sur le ventilateur et des ombres sur la table, mettant en valeur l’objet et son environnement.",
+
+    englishStoryTitle: "The Fan on the Table",
+    englishStoryContent: "A small electric <span style=\"color:#00ACFF; font-weight:bold\">fan</span> sits on a wooden table, its blades shiny and stationary. A folded notebook and a pen rest nearby. Sunlight streams through a window, creating clear highlights on the fan and casting shadows across the table, emphasizing the object and its surroundings.",
+
+    arabicStoryTitle: "المروحة على الطاولة",
+    arabicStoryContent: "مروحة كهربائية صغيرة على طاولة خشبية، شفراتها لامعة وثابتة. دفتر مطوي وقلم موضوعان بجانبها. أشعة الشمس تتسلل عبر النافذة، مخلقة انعكاسات واضحة على المروحة وظلال على الطاولة، مما يبرز المروحة ومحيطها."
+},
+    
+    
+    {
+    emoji: "🛋️",
+    word: "canapé",
+    ipa: "/ka.na.pe/",
+    image: "canape.png",
+
+    sentence: 'Le <span style=\"color:#00ACFF; font-weight:bold\">canapé</span> est dans le salon.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">couch</span> is in the living room.',
+    arabicTr: 'الأريكة موجودة في غرفة المعيشة <span style=\"color:#00ACFF; font-weight:bold\">canapé</span>.',
+
+    mainStoryTitle: "Le Canapé dans le Salon",
+    mainStoryContent: "Un grand <span style=\"color:#00ACFF; font-weight:bold\">canapé</span> confortable est placé contre le mur, avec des coussins soigneusement pliés et un plaid posé sur un bras. Une petite table basse se trouve devant, tenant un livre et une tasse. La lumière du soleil traverse la fenêtre, créant des ombres nettes sur le sol, mettant en valeur le confort et la structure de la pièce.",
+
+    englishStoryTitle: "The Couch in the Living Room",
+    englishStoryContent: "A large, comfortable <span style=\"color:#00ACFF; font-weight:bold\">couch</span> sits against the wall, with neatly folded cushions and a throw blanket draped over one arm. A small coffee table rests in front, holding a book and a cup. Sunlight streams through a window, casting bold shadows across the floor, highlighting comfort and structure.",
+
+    arabicStoryTitle: "الأريكة في غرفة المعيشة",
+    arabicStoryContent: "أريكة كبيرة ومريحة موضوعة مقابل الحائط، مع وسائد مطوية بعناية وبطانية على أحد الأذرع. توجد طاولة قهوة صغيرة أمامها تحتوي على كتاب وكوب. أشعة الشمس تتدفق عبر النافذة، مخلقة ظلال واضحة على الأرض، مما يبرز الراحة وبنية الغرفة."
+},
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
     
     
     
