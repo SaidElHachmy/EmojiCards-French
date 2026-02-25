@@ -970,24 +970,128 @@
 },
     
     
+    
     {
     emoji: "🛋️",
     word: "canapé",
-    ipa: "/ka.na.pe/",
+    ipa: "/ka. na. pe/",
     image: "canape.png",
 
     sentence: 'Le <span style=\"color:#00ACFF; font-weight:bold\">canapé</span> est dans le salon.',
     englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">couch</span> is in the living room.',
-    arabicTr: 'الأريكة موجودة في غرفة المعيشة <span style=\"color:#00ACFF; font-weight:bold\">canapé</span>.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">أريكة</span> في غرفة المعيشة.',
 
     mainStoryTitle: "Le Canapé dans le Salon",
-    mainStoryContent: "Un grand <span style=\"color:#00ACFF; font-weight:bold\">canapé</span> confortable est placé contre le mur, avec des coussins soigneusement pliés et un plaid posé sur un bras. Une petite table basse se trouve devant, tenant un livre et une tasse. La lumière du soleil traverse la fenêtre, créant des ombres nettes sur le sol, mettant en valeur le confort et la structure de la pièce.",
+    mainStoryContent: "Un grand <span style=\"color:#00ACFF; font-weight:bold\">canapé</span> confortable est placé contre le mur, avec des coussins soigneusement pliés et un plaid posé sur un accoudoir. Une petite table basse devant le <span style=\"color:#00ACFF; font-weight:bold\">canapé</span> tient un livre et une tasse. La lumière du soleil traverse la fenêtre proche, projetant des ombres nettes sur le sol et mettant en valeur le confort et la structure de la pièce.",
 
     englishStoryTitle: "The Couch in the Living Room",
-    englishStoryContent: "A large, comfortable <span style=\"color:#00ACFF; font-weight:bold\">couch</span> sits against the wall, with neatly folded cushions and a throw blanket draped over one arm. A small coffee table rests in front, holding a book and a cup. Sunlight streams through a window, casting bold shadows across the floor, highlighting comfort and structure.",
+    englishStoryContent: "A large, comfortable <span style=\"color:#00ACFF; font-weight:bold\">couch</span> sits against the wall, with neatly folded cushions and a throw blanket draped over one arm. A small coffee table in front holds a book and a cup. Sunlight streams through a nearby window, casting bold shadows across the floor and emphasizing comfort and structure.",
 
     arabicStoryTitle: "الأريكة في غرفة المعيشة",
-    arabicStoryContent: "أريكة كبيرة ومريحة موضوعة مقابل الحائط، مع وسائد مطوية بعناية وبطانية على أحد الأذرع. توجد طاولة قهوة صغيرة أمامها تحتوي على كتاب وكوب. أشعة الشمس تتدفق عبر النافذة، مخلقة ظلال واضحة على الأرض، مما يبرز الراحة وبنية الغرفة."
+    arabicStoryContent: "أريكة كبيرة ومريحة موضوعة مقابل الجدار، مع وسائد مطوية بعناية وبطانية موضوعة على أحد الذراعين. طاولة قهوة صغيرة أمام <span style=\"color:#00ACFF; font-weight:bold\">الأريكة</span> تحتوي على كتاب وفنجان. أشعة الشمس تتسلل من النافذة القريبة، مخلقة ظلال واضحة على الأرض وتبرز الراحة وهيكل الغرفة."
+},
+    
+    
+    {
+    emoji: "🔳",
+    word: "tableau noir",
+    ipa: "/ta. blo nwaʁ/",
+    image: "tableau_noir.png",
+
+    sentence: 'Le <span style=\"color:#00ACFF; font-weight:bold\">tableau noir</span> est sur le mur de la classe.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">blackboard</span> is on the classroom wall.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">سبورة</span> على جدار الفصل.',
+
+    mainStoryTitle: "Le Tableau Noir de la Classe",
+    mainStoryContent: "Un grand <span style=\"color:#00ACFF; font-weight:bold\">tableau noir</span> est accroché au mur, avec de légères traces de craie encore visibles. Un porte-craie et une gomme reposent soigneusement sur le plateau en dessous. Les bureaux et les chaises sont alignés en rangées face au <span style=\"color:#00ACFF; font-weight:bold\">tableau noir</span>, tandis que la lumière du soleil traverse les fenêtres, créant des ombres nettes sur le sol.",
+
+    englishStoryTitle: "The Blackboard in the Classroom",
+    englishStoryContent: "A large <span style=\"color:#00ACFF; font-weight:bold\">blackboard</span> hangs on the wall, with faint chalk marks still visible. A chalk holder and eraser rest neatly on the tray below. Desks and chairs are arranged in rows facing the <span style=\"color:#00ACFF; font-weight:bold\">blackboard</span>. Sunlight streams through the windows, casting bold shadows across the floor.",
+
+    arabicStoryTitle: "السبورة في الفصل",
+    arabicStoryContent: "سبورة كبيرة معلقة على الجدار، مع آثار خفيفة للطباشير لا تزال مرئية. حامل الطباشير والممحاة موضوعان بعناية على الدرج أدناه. الطاولات والكراسي مرتبة في صفوف تواجه <span style=\"color:#00ACFF; font-weight:bold\">السبورة</span>، بينما أشعة الشمس تتدفق من النوافذ، مخلقة ظلال واضحة على الأرض."
+},
+    
+    
+    {
+    emoji: "🪑",
+    word: "chaise",
+    ipa: "/ʃɛz/",
+    image: "chaise.png",
+
+    sentence: 'La <span style=\"color:#00ACFF; font-weight:bold\">chaise</span> est près du bureau.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">chair</span> is by the desk.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">كرسي</span> بجانب المكتب.',
+
+    mainStoryTitle: "La Chaise près du Bureau",
+    mainStoryContent: "Une <span style=\"color:#00ACFF; font-weight:bold\">chaise</span> en bois est placée devant le bureau, son dossier droit et poli. Un petit carnet et un stylo reposent sur le bureau. La lumière du soleil traverse la fenêtre proche, projetant des ombres nettes sur le sol et mettant en valeur la structure et la présence de la pièce.",
+
+    englishStoryTitle: "The Chair by the Desk",
+    englishStoryContent: "A wooden <span style=\"color:#00ACFF; font-weight:bold\">chair</span> sits neatly in front of a desk, its back straight and polished. A small notebook and pen rest on the desk surface. Sunlight streams through a nearby window, casting bold shadows across the floor, emphasizing structure and presence.",
+
+    arabicStoryTitle: "الكرسي بجانب المكتب",
+    arabicStoryContent: "كرسي خشبي موضوعة أمام المكتب، ظهره مستقيم ولامع. دفتر صغير وقلم موضوعان على سطح المكتب. أشعة الشمس تتسلل من النافذة القريبة، مخلقة ظلال واضحة على الأرض وتبرز <span style=\"color:#00ACFF; font-weight:bold\">الكرسي</span> وهيكل الغرفة."
+},
+    
+    {
+    emoji: "📚",
+    word: "bibliothèque",
+    ipa: "/bi. bli. ɔ. tɛk/",
+    image: "bibliotheque.png",
+
+    sentence: 'La <span style=\"color:#00ACFF; font-weight:bold\">bibliothèque</span> est contre le mur.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">bookcase</span> is against the wall.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">خزانة الكتب</span> بجانب الجدار.',
+
+    mainStoryTitle: "La Bibliothèque contre le Mur",
+    mainStoryContent: "Une grande <span style=\"color:#00ACFF; font-weight:bold\">bibliothèque</span> en bois se tient contre le mur, remplie soigneusement de livres colorés de différentes tailles. Une petite plante et un objet décoratif sont posés sur l'une des étagères. La lumière du soleil traverse la fenêtre proche, projetant des ombres nettes sur le sol et mettant en valeur l'ordre et la structure de la pièce.",
+
+    englishStoryTitle: "The Bookcase Against the Wall",
+    englishStoryContent: "A tall wooden <span style=\"color:#00ACFF; font-weight:bold\">bookcase</span> stands against the wall, neatly filled with colorful books of various sizes. A small plant and decorative item sit on one of the shelves. Sunlight streams through a nearby window, casting bold shadows across the floor, emphasizing order and structure.",
+
+    arabicStoryTitle: "خزانة الكتب بجانب الجدار",
+    arabicStoryContent: "خزانة كتب خشبية كبيرة موضوعة مقابل الجدار، ممتلئة بعناية بالكتب الملونة بمختلف الأحجام. توجد نبتة صغيرة وغرض زخرفي على أحد الرفوف. أشعة الشمس تتسلل من النافذة القريبة، مخلقة ظلال واضحة على الأرض وتبرز <span style=\"color:#00ACFF; font-weight:bold\">خزانة الكتب</span> وهيكل الغرفة."
+},
+    
+    
+    {
+    emoji: "🧱",
+    word: "mur",
+    ipa: "/myʁ/",
+    image: "mur.png",
+
+    sentence: 'Le <span style=\"color:#00ACFF; font-weight:bold\">mur</span> est peint en bleu.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">wall</span> is painted blue.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">جدار</span> مطلي باللون الأزرق.',
+
+    mainStoryTitle: "Le Mur Bleu",
+    mainStoryContent: "Un <span style=\"color:#00ACFF; font-weight:bold\">mur</span> lisse est peint en bleu vibrant, s'étendant sur tout l'arrière-plan. Un petit cadre est accroché soigneusement dessus. La lumière du soleil provenant d'une fenêtre proche projette des ombres douces sur sa surface, mettant en valeur la structure et la profondeur de la pièce.",
+
+    englishStoryTitle: "The Blue Wall",
+    englishStoryContent: "A smooth <span style=\"color:#00ACFF; font-weight:bold\">wall</span> is painted vibrant blue, stretching across the background. A small framed picture hangs neatly on it. Sunlight from a nearby window casts soft shadows along its surface, emphasizing structure and depth.",
+
+    arabicStoryTitle: "الجدار الأزرق",
+    arabicStoryContent: "جدار أملس مطلي باللون الأزرق الزاهي، يمتد عبر الخلفية. إطار صغير معلق بعناية عليه. أشعة الشمس من نافذة قريبة تُلقي ظلالًا ناعمة على السطح، مما يبرز <span style=\"color:#00ACFF; font-weight:bold\">الجدار</span> وعمق الغرفة."
+},
+    
+    {
+    emoji: "⏰",
+    word: "horloge",
+    ipa: "/ɔʁ.lɔʒ/",
+    image: "horloge.png",
+
+    sentence: 'L\'<span style=\"color:#00ACFF; font-weight:bold\">horloge</span> est sur le mur.',
+    englishTr: 'The <span style=\"color:#00ACFF; font-weight:bold\">clock</span> is on the wall.',
+    arabicTr: 'الـ <span style=\"color:#00ACFF; font-weight:bold\">ساعة</span> على الجدار.',
+
+    mainStoryTitle: "L'Horloge sur le Mur",
+    mainStoryContent: "Une <span style=\"color:#00ACFF; font-weight:bold\">horloge</span> ronde avec des chiffres et des aiguilles bien visibles est accrochée soigneusement au-dessus d'un bureau en bois. La lumière du soleil traverse une fenêtre proche, projetant des ombres nettes sur le sol, mettant en valeur la précision et la clarté de l'objet.",
+
+    englishStoryTitle: "The Clock on the Wall",
+    englishStoryContent: "A round <span style=\"color:#00ACFF; font-weight:bold\">clock</span> with bold numbers and hands hangs neatly above a wooden desk. Sunlight streams through a nearby window, casting clear shadows across the floor and emphasizing clarity and precision.",
+
+    arabicStoryTitle: "الساعة على الجدار",
+    arabicStoryContent: "ساعة حائط مستديرة بأرقام وعقارب واضحة معلقة بعناية فوق مكتب خشبي. أشعة الشمس تتسلل من نافذة قريبة، مخلقة ظلالًا واضحة على الأرض وتبرز <span style=\"color:#00ACFF; font-weight:bold\">الساعة</span> ودقتها."
 },
     
     
